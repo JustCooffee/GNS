@@ -1,0 +1,2 @@
+/interface set ether1 name="sfp281"
+/interface set ether2 name="sfp282"
