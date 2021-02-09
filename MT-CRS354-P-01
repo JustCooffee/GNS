@@ -1,0 +1,12 @@
+/interface ethernet set [find default-name=ether49] name=qsfpplus1-1
+/interface ethernet set [find default-name=ether50] name=qsfpplus1-2
+/interface ethernet set [find default-name=ether51] name=qsfpplus1-3
+/interface ethernet set [find default-name=ether52] name=qsfpplus1-4
+/interface ethernet set [find default-name=ether53] name=qsfpplus2-1
+/interface ethernet set [find default-name=ether54] name=qsfpplus2-2
+/interface ethernet set [find default-name=ether55] name=qsfpplus2-3
+/interface ethernet set [find default-name=ether56] name=qsfpplus2-4
+/interface ethernet set [find default-name=ether57] name=sfp-sfpplus1
+/interface ethernet set [find default-name=ether58] name=sfp-sfpplus2
+/interface ethernet set [find default-name=ether59] name=sfp-sfpplus3
+/interface ethernet set [find default-name=ether60] name=sfp-sfpplus4
