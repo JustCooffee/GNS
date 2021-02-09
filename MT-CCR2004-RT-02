@@ -1,5 +1,5 @@
-/interface ethernet set [find default-name=ether1] name=sfp281
-/interface ethernet set [find default-name=ether2] name=sfp282
+/interface ethernet set [find default-name=ether1] name=sfp-sfp281
+/interface ethernet set [find default-name=ether2] name=sfp-sfp282
 /interface ethernet set [find default-name=ether3] name=sfp-sfpplus1
 /interface ethernet set [find default-name=ether4] name=sfp-sfpplus2
 /interface ethernet set [find default-name=ether5] name=sfp-sfpplus3
