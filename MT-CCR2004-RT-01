@@ -13,4 +13,3 @@
 /interface ethernet set [find default-name=ether13] name=sfp-sfpplus11
 /interface ethernet set [find default-name=ether14] name=sfp-sfpplus12
 /interface ethernet set [find default-name=ether15] name=ether1
-/interface ethernet set [find default-name=ether16] name=serial0
