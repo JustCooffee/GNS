@@ -46,7 +46,7 @@
 /interface ethernet set [find default-name=ether46] name=ether46
 /interface ethernet set [find default-name=ether47] name=ether47
 /interface ethernet set [find default-name=ether48] name=ether48
-/interface ethernet set [find default-name=ether61] name=ether49
+/interface ethernet set [find default-name=ether49] name=ether49
 /interface ethernet set [find default-name=ether50] name=qsfpplus1-1
 /interface ethernet set [find default-name=ether51] name=qsfpplus1-2
 /interface ethernet set [find default-name=ether52] name=qsfpplus1-3
