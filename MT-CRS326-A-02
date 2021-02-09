@@ -31,4 +31,3 @@
 /interface ethernet set [find default-name=ether31] name=sfp-sfpplus23
 /interface ethernet set [find default-name=ether32] name=sfp-sfpplus24
 /interface ethernet set [find default-name=ether33] name=ether1
-
