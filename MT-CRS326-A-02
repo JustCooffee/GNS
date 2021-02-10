@@ -31,3 +31,14 @@
 /interface ethernet set [find default-name=ether31] name=sfp-sfpplus23
 /interface ethernet set [find default-name=ether32] name=sfp-sfpplus24
 /interface ethernet set [find default-name=ether33] name=ether1
+
+
+/interface bonding add slaves=qsfpplus1-1,qsfpplus1-2,qsfpplus1-3,qsfpplus1-4 name=bonding1 mode=802.3ad
+/interface bonding add slaves=qsfpplus2-1,qsfpplus2-2 name=bonding2 mode=802.3ad
+/interface bonding add slaves=qsfpplus2-3,qsfpplus2-4 name=bonding3 mode=802.3ad
+/interface bonding add slaves=sfp-sfpplus1,sfp-sfpplus2 name=bonding50 mode=802.3ad
+/interface bonding add slaves=sfp-sfpplus3,sfp-sfpplus4 name=bonding51 mode=802.3ad
+/interface bonding add slaves=sfp-sfpplus5,sfp-sfpplus6 name=bonding52 mode=802.3ad
+/interface bonding add slaves=sfp-sfpplus7,sfp-sfpplus8 name=bonding53 mode=802.3ad
+/interface bonding add slaves=sfp-sfpplus9,sfp-sfpplus10 name=bonding54 mode=802.3ad
+/interface bonding add slaves=sfp-sfpplus11,sfp-sfpplus12 name=bonding55 mode=802.3ad
