@@ -42,3 +42,30 @@
 /interface bonding add slaves=sfp-sfpplus7,sfp-sfpplus8 name=bonding7 mode=802.3ad
 /interface bonding add slaves=sfp-sfpplus9,sfp-sfpplus10 name=bonding8 mode=802.3ad
 /interface bonding add slaves=sfp-sfpplus11,sfp-sfpplus12 name=bonding9 mode=802.3ad
+
+
+################################ VLAN ###########################################
+
+/interface bridge add name=BR vlan-filtering=yes pvid=666
+
+/interface vlan add name=Printers vlan-id=70 disabled=no interface=BR
+/interface vlan add name=Guest vlan-id=80 disabled=no interface=BR
+/interface vlan add name=BYOD vlan-id=90 disabled=no interface=BR
+/interface vlan add name=Company_1 vlan-id=100 disabled=no interface=BR
+/interface vlan add name=Blackhole vlan-id=420 disabled=no interface=BR
+/interface vlan add name=Default vlan-id=666 disabled=no interface=BR
+/interface vlan add name=Management vlan-id=2137 disabled=no interface=BR
+
+/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding1 pvid=666
+/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding2 pvid=666
+/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding3 pvid=666
+/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding4 pvid=666
+/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding5 pvid=666
+/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding6 pvid=666
+/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding7 pvid=666
+/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding8 pvid=666
+/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding9 pvid=666
+/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=ether1 pvid=666
+
+/interface bridge vlan add bridge=BR tagged=BR,ether1,bonding1,bonding2,bonding3,bonding4,bonding5,bonding6,bonding7,bonding8,bonding9 vlan-ids=2137
+/interface bridge vlan add bridge=BR tagged=BR,bonding1,bonding2,bonding3,bonding4,bonding5,bonding6,bonding7,bonding8,bonding9 vlan-ids=70,80,90,100
