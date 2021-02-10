@@ -59,3 +59,7 @@
 /interface ethernet set [find default-name=ether59] name=sfp-sfpplus2
 /interface ethernet set [find default-name=ether60] name=sfp-sfpplus3
 /interface ethernet set [find default-name=ether61] name=sfp-sfpplus4
+
+
+/interface bonding add slaves=sfp-sfpplus1,sfp-sfpplus2 name=bonding4 mode=802.3ad
+/interface bonding add slaves=sfp-sfpplus3,sfp-sfpplus4 name=bonding50 mode=802.3ad
