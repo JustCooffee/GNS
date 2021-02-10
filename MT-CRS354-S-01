@@ -1,0 +1,2 @@
+/interface bonding add slaves=sfp-sfpplus1,sfp-sfpplus2 name=bonding5 mode=802.3ad
+/interface bonding add slaves=sfp-sfpplus3,sfp-sfpplus4 name=bonding51 mode=802.3ad
