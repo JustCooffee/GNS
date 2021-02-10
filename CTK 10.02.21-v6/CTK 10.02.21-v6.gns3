@@ -1,0 +1,3863 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "drawing_grid_size": 25,
+    "grid_size": 75,
+    "name": "CTK 10.02.21-v6",
+    "project_id": "4778874f-6207-4d45-8e6f-90fb7dd7f591",
+    "revision": 9,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "show_grid": true,
+    "show_interface_labels": true,
+    "show_layers": false,
+    "snap_to_grid": true,
+    "supplier": null,
+    "topology": {
+        "computes": [],
+        "drawings": [],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "c2594893-eee8-40d6-b7df-72f4ca9c976f",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfp281",
+                            "x": 148,
+                            "y": -4
+                        },
+                        "node_id": "3035e46d-aa5f-4681-967b-8645a8c875d5",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfp281",
+                            "x": -159,
+                            "y": -4
+                        },
+                        "node_id": "091220e6-2ba2-4e8d-9d49-a14e7dcf5757",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "ea820c06-d793-40c6-828e-d3623fed0d37",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfp282",
+                            "x": 81,
+                            "y": -4
+                        },
+                        "node_id": "3035e46d-aa5f-4681-967b-8645a8c875d5",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfp282",
+                            "x": -88,
+                            "y": -4
+                        },
+                        "node_id": "091220e6-2ba2-4e8d-9d49-a14e7dcf5757",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "152ede4a-c89e-46c1-afec-3e1419bca621",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "qsfpplus1-1",
+                            "x": 335,
+                            "y": 21
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "qsfpplus1-1",
+                            "x": -354,
+                            "y": -15
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "a3368ef4-594e-4e33-ba25-b142ec4ae270",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "qsfpplus1-2",
+                            "x": 261,
+                            "y": 21
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "qsfpplus1-2",
+                            "x": -280,
+                            "y": -15
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "d32b0c94-2465-4e0a-a06f-9d764f51782f",
+                "nodes": [
+                    {
+                        "adapter_number": 2,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "qsfpplus1-3",
+                            "x": 187,
+                            "y": 21
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "qsfpplus1-3",
+                            "x": -207,
+                            "y": -15
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "a0045a6f-cf9f-4c96-9f94-582d27fc2cf8",
+                "nodes": [
+                    {
+                        "adapter_number": 3,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "qsfpplus1-4",
+                            "x": 111,
+                            "y": 21
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "qsfpplus1-4",
+                            "x": -133,
+                            "y": -15
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "15a5386e-5134-40e6-96d6-955d6f1b20cd",
+                "nodes": [
+                    {
+                        "adapter_number": 4,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "qsfpplus2-1",
+                            "x": -47,
+                            "y": -87
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus1",
+                            "x": 34,
+                            "y": 133
+                        },
+                        "node_id": "3035e46d-aa5f-4681-967b-8645a8c875d5",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "b7ac17fc-50b9-4e51-8448-8e3a997a6f43",
+                "nodes": [
+                    {
+                        "adapter_number": 5,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "qsfpplus2-2",
+                            "x": -46,
+                            "y": -66
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus2",
+                            "x": 34,
+                            "y": 112
+                        },
+                        "node_id": "3035e46d-aa5f-4681-967b-8645a8c875d5",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "610df238-236b-47d4-9081-b852f0887fe2",
+                "nodes": [
+                    {
+                        "adapter_number": 6,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "qsfpplus2-3",
+                            "x": 174,
+                            "y": -96
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus3",
+                            "x": -230,
+                            "y": 69
+                        },
+                        "node_id": "091220e6-2ba2-4e8d-9d49-a14e7dcf5757",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "f05a783f-0567-4f0a-9ee5-51273c55f7ef",
+                "nodes": [
+                    {
+                        "adapter_number": 7,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "qsfpplus2-4",
+                            "x": 118,
+                            "y": -74
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus4",
+                            "x": -176,
+                            "y": 46
+                        },
+                        "node_id": "091220e6-2ba2-4e8d-9d49-a14e7dcf5757",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "c6bf96f9-9685-41ec-96a0-c758057e29e4",
+                "nodes": [
+                    {
+                        "adapter_number": 4,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "qsfpplus2-1",
+                            "x": 40,
+                            "y": -116
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus1",
+                            "x": -50,
+                            "y": 126
+                        },
+                        "node_id": "091220e6-2ba2-4e8d-9d49-a14e7dcf5757",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "6bb9cf05-1877-4719-97d5-7699a6c1cfee",
+                "nodes": [
+                    {
+                        "adapter_number": 5,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "qsfpplus2-2",
+                            "x": 41,
+                            "y": -97
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus2",
+                            "x": -50,
+                            "y": 150
+                        },
+                        "node_id": "091220e6-2ba2-4e8d-9d49-a14e7dcf5757",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "ee1686a8-8daf-4cad-b637-e4bb309fc8bd",
+                "nodes": [
+                    {
+                        "adapter_number": 6,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "qsfpplus2-3",
+                            "x": -161,
+                            "y": -88
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus3",
+                            "x": 216,
+                            "y": 73
+                        },
+                        "node_id": "3035e46d-aa5f-4681-967b-8645a8c875d5",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "f2d850b3-91a3-4abc-a3e0-bba2cdfef093",
+                "nodes": [
+                    {
+                        "adapter_number": 7,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "qsfpplus2-4",
+                            "x": -119,
+                            "y": -68
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus4",
+                            "x": 165,
+                            "y": 53
+                        },
+                        "node_id": "3035e46d-aa5f-4681-967b-8645a8c875d5",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "64119250-fbbf-4911-977b-0cec330b198d",
+                "nodes": [
+                    {
+                        "adapter_number": 57,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus1",
+                            "x": -844,
+                            "y": -111
+                        },
+                        "node_id": "e91b403f-48f7-4581-ba88-4e552a4082d2",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 10,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus3",
+                            "x": -1116,
+                            "y": 170
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "b71e4419-b6c8-49ea-9ac7-427f285b827b",
+                "nodes": [
+                    {
+                        "adapter_number": 58,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus2",
+                            "x": -848,
+                            "y": -125
+                        },
+                        "node_id": "e91b403f-48f7-4581-ba88-4e552a4082d2",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 11,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus4",
+                            "x": -1120,
+                            "y": 173
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "b742ed4a-c8c2-4eb6-bebe-c2dfc5816843",
+                "nodes": [
+                    {
+                        "adapter_number": 59,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus3",
+                            "x": -861,
+                            "y": -106
+                        },
+                        "node_id": "e91b403f-48f7-4581-ba88-4e552a4082d2",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 10,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus3",
+                            "x": -1600,
+                            "y": -4
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "b21bb935-badd-4b30-8256-fe9cbc93522f",
+                "nodes": [
+                    {
+                        "adapter_number": 11,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus4",
+                            "x": -1486,
+                            "y": 39
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 60,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus4",
+                            "x": -859,
+                            "y": -101
+                        },
+                        "node_id": "e91b403f-48f7-4581-ba88-4e552a4082d2",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "a7796f68-fa5e-4ec4-8375-a86d4bc8b616",
+                "nodes": [
+                    {
+                        "adapter_number": 57,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus1",
+                            "x": -1009,
+                            "y": -120
+                        },
+                        "node_id": "a7089e9b-93b5-4ad7-aa0b-e2389d867573",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 12,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus5",
+                            "x": -1106,
+                            "y": 161
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "e9486a6d-e993-4bb2-a9c3-730388ab77ce",
+                "nodes": [
+                    {
+                        "adapter_number": 58,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus2",
+                            "x": -1029,
+                            "y": -123
+                        },
+                        "node_id": "a7089e9b-93b5-4ad7-aa0b-e2389d867573",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 13,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus6",
+                            "x": -1109,
+                            "y": 165
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "d42da791-b88f-4ebe-a2ac-c0cc524caa5d",
+                "nodes": [
+                    {
+                        "adapter_number": 59,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus3",
+                            "x": -997,
+                            "y": -108
+                        },
+                        "node_id": "a7089e9b-93b5-4ad7-aa0b-e2389d867573",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 12,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus5",
+                            "x": -1486,
+                            "y": 38
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "417d7c38-b94c-4585-87ce-1e8c3a5964e7",
+                "nodes": [
+                    {
+                        "adapter_number": 60,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus4",
+                            "x": -1010,
+                            "y": -114
+                        },
+                        "node_id": "a7089e9b-93b5-4ad7-aa0b-e2389d867573",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 13,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus6",
+                            "x": -1510,
+                            "y": 6
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "4a383941-daf7-4562-aec1-401e31945290",
+                "nodes": [
+                    {
+                        "adapter_number": 57,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus1",
+                            "x": -1141,
+                            "y": -139
+                        },
+                        "node_id": "f93e6b0d-85c0-46fa-aa90-719b4806ad4e",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 14,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus7",
+                            "x": -1102,
+                            "y": 154
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "5d357aa8-2404-4bf8-8b98-b66fa5319429",
+                "nodes": [
+                    {
+                        "adapter_number": 58,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus2",
+                            "x": -1165,
+                            "y": -105
+                        },
+                        "node_id": "f93e6b0d-85c0-46fa-aa90-719b4806ad4e",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 15,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus8",
+                            "x": -1104,
+                            "y": 159
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "903400e1-83a9-4e7b-abbe-6e21d649b8fb",
+                "nodes": [
+                    {
+                        "adapter_number": 59,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus3",
+                            "x": -1152,
+                            "y": -123
+                        },
+                        "node_id": "f93e6b0d-85c0-46fa-aa90-719b4806ad4e",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 14,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus7",
+                            "x": -1483,
+                            "y": 45
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "a4fd9233-ad76-4d9c-8ba1-7ab403dc2f4c",
+                "nodes": [
+                    {
+                        "adapter_number": 60,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus4",
+                            "x": -1155,
+                            "y": -127
+                        },
+                        "node_id": "f93e6b0d-85c0-46fa-aa90-719b4806ad4e",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 15,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus8",
+                            "x": -1486,
+                            "y": 41
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "7569e8dd-09e7-4ebc-a81a-8fc06c23ec30",
+                "nodes": [
+                    {
+                        "adapter_number": 57,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus1",
+                            "x": -1342,
+                            "y": -115
+                        },
+                        "node_id": "a4098802-4e3a-4563-992c-1796679c55c5",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 18,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus11",
+                            "x": -1101,
+                            "y": 151
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "3b0d5bae-61cb-4471-9100-33f9f4b037d5",
+                "nodes": [
+                    {
+                        "adapter_number": 58,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus2",
+                            "x": -1316,
+                            "y": -131
+                        },
+                        "node_id": "a4098802-4e3a-4563-992c-1796679c55c5",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 19,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus12",
+                            "x": -1102,
+                            "y": 155
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "c04bd2b5-b411-46c5-bd89-9217e122ae8d",
+                "nodes": [
+                    {
+                        "adapter_number": 59,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus3",
+                            "x": -1336,
+                            "y": -107
+                        },
+                        "node_id": "a4098802-4e3a-4563-992c-1796679c55c5",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 18,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus11",
+                            "x": -1602,
+                            "y": 58
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "83b2505e-79cd-4b79-a101-d71e4fe4a172",
+                "nodes": [
+                    {
+                        "adapter_number": 60,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus4",
+                            "x": -1311,
+                            "y": -122
+                        },
+                        "node_id": "a4098802-4e3a-4563-992c-1796679c55c5",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 19,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus12",
+                            "x": -1477,
+                            "y": 51
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "cff79a63-ee14-4f27-98e5-6cb6a2c68a7f",
+                "nodes": [
+                    {
+                        "adapter_number": 57,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus1",
+                            "x": -1488,
+                            "y": -138
+                        },
+                        "node_id": "e0338c96-da38-4f83-885c-a3532c7036f8",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 16,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus9",
+                            "x": -1100,
+                            "y": 148
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "78d75542-7dfe-40f9-a6af-dc33b481303f",
+                "nodes": [
+                    {
+                        "adapter_number": 58,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus2",
+                            "x": -1485,
+                            "y": -127
+                        },
+                        "node_id": "e0338c96-da38-4f83-885c-a3532c7036f8",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 17,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus10",
+                            "x": -1101,
+                            "y": 153
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "da0c7ef8-6c30-48b3-a386-1a278880c216",
+                "nodes": [
+                    {
+                        "adapter_number": 59,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus3",
+                            "x": -1455,
+                            "y": -162
+                        },
+                        "node_id": "e0338c96-da38-4f83-885c-a3532c7036f8",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 16,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus9",
+                            "x": -1621,
+                            "y": 4
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "2330e738-4265-429b-9d0a-070f5941303e",
+                "nodes": [
+                    {
+                        "adapter_number": 60,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus4",
+                            "x": -1462,
+                            "y": -117
+                        },
+                        "node_id": "e0338c96-da38-4f83-885c-a3532c7036f8",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 17,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus10",
+                            "x": -1626,
+                            "y": 4
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "7618fd5a-c8d7-47b1-b3f7-e06222a46397",
+                "nodes": [
+                    {
+                        "adapter_number": 57,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus1",
+                            "x": 35,
+                            "y": -23
+                        },
+                        "node_id": "ee76e45b-8639-4c8b-9c5a-4cbd32c64f19",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 8,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus1",
+                            "x": 35,
+                            "y": 55
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "65f0542c-0ea8-4eb7-aec6-5163382b6b05",
+                "nodes": [
+                    {
+                        "adapter_number": 58,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus2",
+                            "x": 51,
+                            "y": -62
+                        },
+                        "node_id": "ee76e45b-8639-4c8b-9c5a-4cbd32c64f19",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 9,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus2",
+                            "x": 30,
+                            "y": 55
+                        },
+                        "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "da5c2d54-f1c8-4a70-b150-01f89f0f8c93",
+                "nodes": [
+                    {
+                        "adapter_number": 59,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus3",
+                            "x": 73,
+                            "y": 4
+                        },
+                        "node_id": "ee76e45b-8639-4c8b-9c5a-4cbd32c64f19",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 8,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus1",
+                            "x": -2,
+                            "y": 27
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "fc8dc044-7098-4f0a-8f23-da2dcfb85a05",
+                "nodes": [
+                    {
+                        "adapter_number": 60,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus4",
+                            "x": 72,
+                            "y": 0
+                        },
+                        "node_id": "ee76e45b-8639-4c8b-9c5a-4cbd32c64f19",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 9,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "sfp-sfpplus2",
+                            "x": -4,
+                            "y": 22
+                        },
+                        "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "local",
+                "console": 5002,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [
+                    {
+                        "adapter_number": 0,
+                        "port_name": "sfp-sfp281"
+                    },
+                    {
+                        "adapter_number": 1,
+                        "port_name": "sfp-sfp282"
+                    },
+                    {
+                        "adapter_number": 2,
+                        "port_name": "sfp-sfpplus1"
+                    },
+                    {
+                        "adapter_number": 3,
+                        "port_name": "sfp-sfpplus2"
+                    },
+                    {
+                        "adapter_number": 4,
+                        "port_name": "sfp-sfpplus3"
+                    },
+                    {
+                        "adapter_number": 5,
+                        "port_name": "sfp-sfpplus4"
+                    },
+                    {
+                        "adapter_number": 6,
+                        "port_name": "sfp-sfpplus5"
+                    },
+                    {
+                        "adapter_number": 7,
+                        "port_name": "sfp-sfpplus6"
+                    },
+                    {
+                        "adapter_number": 8,
+                        "port_name": "sfp-sfpplus7"
+                    },
+                    {
+                        "adapter_number": 9,
+                        "port_name": "sfp-sfpplus8"
+                    },
+                    {
+                        "adapter_number": 10,
+                        "port_name": "sfp-sfpplus9"
+                    },
+                    {
+                        "adapter_number": 11,
+                        "port_name": "sfp-sfpplus10"
+                    },
+                    {
+                        "adapter_number": 12,
+                        "port_name": "sfp-sfpplus11"
+                    },
+                    {
+                        "adapter_number": 13,
+                        "port_name": "sfp-sfpplus12"
+                    },
+                    {
+                        "adapter_number": 14,
+                        "port_name": "ether1"
+                    }
+                ],
+                "first_port_name": "",
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "MT-CCR2004-RT-02",
+                    "x": 78,
+                    "y": 12
+                },
+                "locked": false,
+                "name": "MT-CCR2004-RT-02",
+                "node_id": "091220e6-2ba2-4e8d-9d49-a14e7dcf5757",
+                "node_type": "qemu",
+                "port_name_format": "ether{port1}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "virtio-net-pci",
+                    "adapters": 15,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "c",
+                    "cdrom_image": "",
+                    "cdrom_image_md5sum": null,
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "hda_disk_image": "chr-6.46.5.img",
+                    "hda_disk_image_md5sum": "39dea5d6a58708eebfa73332456566f4",
+                    "hda_disk_interface": "virtio",
+                    "hdb_disk_image": "",
+                    "hdb_disk_image_md5sum": null,
+                    "hdb_disk_interface": "ide",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "ide",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "ide",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "legacy_networking": false,
+                    "linked_clone": true,
+                    "mac_address": "0c:c3:41:13:e8:00",
+                    "on_close": "power_off",
+                    "options": "-nographic",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 128,
+                    "replicate_network_connection_state": true,
+                    "usage": "If you'd like a different sized main disk, resize the image before booting the VM for the first time.\n\nOn first boot, RouterOS is actually being installed, formatting the whole main virtual disk, before finally rebooting. That whole process may take a minute or so.\n\nThe console will become available after the installation is complete. Most Telnet/SSH clients (certainly SuperPutty) will keep retrying to connect, thus letting you know when installation is done.\n\nFrom that point on, everything about RouterOS is also true about Cloud Hosted Router, including the default credentials: Username \"admin\" and an empty password.\n\nThe primary differences between RouterOS and CHR are in support for virtual devices (this appliance comes with them being selected), and in the different license model, for which you can read more about at http://wiki.mikrotik.com/wiki/Manual:CHR."
+                },
+                "symbol": ":/symbols/router_firewall.svg",
+                "template_id": "f4e6ce60-00a8-43f0-ac2b-37bbf56ab7dc",
+                "width": 66,
+                "x": 267,
+                "y": -247,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5004,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [
+                    {
+                        "adapter_number": 0,
+                        "port_name": "sfp-sfp281"
+                    },
+                    {
+                        "adapter_number": 1,
+                        "port_name": "sfp-sfp282"
+                    },
+                    {
+                        "adapter_number": 2,
+                        "port_name": "sfp-sfpplus1"
+                    },
+                    {
+                        "adapter_number": 3,
+                        "port_name": "sfp-sfpplus2"
+                    },
+                    {
+                        "adapter_number": 4,
+                        "port_name": "sfp-sfpplus3"
+                    },
+                    {
+                        "adapter_number": 5,
+                        "port_name": "sfp-sfpplus4"
+                    },
+                    {
+                        "adapter_number": 6,
+                        "port_name": "sfp-sfpplus5"
+                    },
+                    {
+                        "adapter_number": 7,
+                        "port_name": "sfp-sfpplus6"
+                    },
+                    {
+                        "adapter_number": 8,
+                        "port_name": "sfp-sfpplus7"
+                    },
+                    {
+                        "adapter_number": 9,
+                        "port_name": "sfp-sfpplus8"
+                    },
+                    {
+                        "adapter_number": 10,
+                        "port_name": "sfp-sfpplus9"
+                    },
+                    {
+                        "adapter_number": 11,
+                        "port_name": "sfp-sfpplus10"
+                    },
+                    {
+                        "adapter_number": 12,
+                        "port_name": "sfp-sfpplus11"
+                    },
+                    {
+                        "adapter_number": 13,
+                        "port_name": "sfp-sfpplus12"
+                    },
+                    {
+                        "adapter_number": 14,
+                        "port_name": "ether1"
+                    }
+                ],
+                "first_port_name": "",
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "MT-CCR2004-RT-01",
+                    "x": -122,
+                    "y": 6
+                },
+                "locked": false,
+                "name": "MT-CCR2004-RT-01",
+                "node_id": "3035e46d-aa5f-4681-967b-8645a8c875d5",
+                "node_type": "qemu",
+                "port_name_format": "ether{port1}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "virtio-net-pci",
+                    "adapters": 15,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "c",
+                    "cdrom_image": "",
+                    "cdrom_image_md5sum": null,
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "hda_disk_image": "chr-6.46.5.img",
+                    "hda_disk_image_md5sum": "39dea5d6a58708eebfa73332456566f4",
+                    "hda_disk_interface": "virtio",
+                    "hdb_disk_image": "",
+                    "hdb_disk_image_md5sum": null,
+                    "hdb_disk_interface": "ide",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "ide",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "ide",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "legacy_networking": false,
+                    "linked_clone": true,
+                    "mac_address": "0c:c3:41:db:3e:00",
+                    "on_close": "power_off",
+                    "options": "-nographic",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 128,
+                    "replicate_network_connection_state": true,
+                    "usage": "If you'd like a different sized main disk, resize the image before booting the VM for the first time.\n\nOn first boot, RouterOS is actually being installed, formatting the whole main virtual disk, before finally rebooting. That whole process may take a minute or so.\n\nThe console will become available after the installation is complete. Most Telnet/SSH clients (certainly SuperPutty) will keep retrying to connect, thus letting you know when installation is done.\n\nFrom that point on, everything about RouterOS is also true about Cloud Hosted Router, including the default credentials: Username \"admin\" and an empty password.\n\nThe primary differences between RouterOS and CHR are in support for virtual devices (this appliance comes with them being selected), and in the different license model, for which you can read more about at http://wiki.mikrotik.com/wiki/Manual:CHR."
+                },
+                "symbol": ":/symbols/router_firewall.svg",
+                "template_id": "f4e6ce60-00a8-43f0-ac2b-37bbf56ab7dc",
+                "width": 66,
+                "x": -483,
+                "y": -247,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "PCSS",
+                    "x": 60,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "PCSS",
+                "node_id": "d1a56690-ff2a-49e3-b65f-51505aefb876",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "eth0",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "lo",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "virbr0",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "virbr0-nic",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "eth0",
+                            "name": "eth0",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": ":/symbols/cloud.svg",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 159,
+                "x": -229,
+                "y": -410,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "NETIA",
+                    "x": 58,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "NETIA",
+                "node_id": "b948fac0-b9c9-4f3b-a355-386411eb4fbb",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "eth0",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "lo",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "virbr0",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "virbr0-nic",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "eth0",
+                            "name": "eth0",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": ":/symbols/cloud.svg",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 159,
+                "x": -154,
+                "y": -410,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5008,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [
+                    {
+                        "adapter_number": 0,
+                        "port_name": "qsfpplus1-1"
+                    },
+                    {
+                        "adapter_number": 1,
+                        "port_name": "qsfpplus1-2"
+                    },
+                    {
+                        "adapter_number": 2,
+                        "port_name": "qsfpplus1-3"
+                    },
+                    {
+                        "adapter_number": 3,
+                        "port_name": "qsfpplus1-4"
+                    },
+                    {
+                        "adapter_number": 4,
+                        "port_name": "qsfpplus2-1"
+                    },
+                    {
+                        "adapter_number": 5,
+                        "port_name": "qsfpplus2-2"
+                    },
+                    {
+                        "adapter_number": 6,
+                        "port_name": "qsfpplus2-3"
+                    },
+                    {
+                        "adapter_number": 7,
+                        "port_name": "qsfpplus2-4"
+                    },
+                    {
+                        "adapter_number": 8,
+                        "port_name": "sfp-sfpplus1"
+                    },
+                    {
+                        "adapter_number": 9,
+                        "port_name": "sfp-sfpplus2"
+                    },
+                    {
+                        "adapter_number": 10,
+                        "port_name": "sfp-sfpplus3"
+                    },
+                    {
+                        "adapter_number": 11,
+                        "port_name": "sfp-sfpplus4"
+                    },
+                    {
+                        "adapter_number": 12,
+                        "port_name": "sfp-sfpplus5"
+                    },
+                    {
+                        "adapter_number": 13,
+                        "port_name": "sfp-sfpplus6"
+                    },
+                    {
+                        "adapter_number": 14,
+                        "port_name": "sfp-sfpplus7"
+                    },
+                    {
+                        "adapter_number": 15,
+                        "port_name": "sfp-sfpplus8"
+                    },
+                    {
+                        "adapter_number": 16,
+                        "port_name": "sfp-sfpplus9"
+                    },
+                    {
+                        "adapter_number": 17,
+                        "port_name": "sfp-sfpplus10"
+                    },
+                    {
+                        "adapter_number": 18,
+                        "port_name": "sfp-sfpplus11"
+                    },
+                    {
+                        "adapter_number": 19,
+                        "port_name": "sfp-sfpplus12"
+                    },
+                    {
+                        "adapter_number": 20,
+                        "port_name": "sfp-sfpplus13"
+                    },
+                    {
+                        "adapter_number": 21,
+                        "port_name": "sfp-sfpplus14"
+                    },
+                    {
+                        "adapter_number": 22,
+                        "port_name": "sfp-sfpplus15"
+                    },
+                    {
+                        "adapter_number": 23,
+                        "port_name": "sfp-sfpplus16"
+                    },
+                    {
+                        "adapter_number": 24,
+                        "port_name": "sfp-sfpplus17"
+                    },
+                    {
+                        "adapter_number": 25,
+                        "port_name": "sfp-sfpplus18"
+                    },
+                    {
+                        "adapter_number": 26,
+                        "port_name": "sfp-sfpplus19"
+                    },
+                    {
+                        "adapter_number": 27,
+                        "port_name": "sfp-sfpplus20"
+                    },
+                    {
+                        "adapter_number": 28,
+                        "port_name": "sfp-sfpplus21"
+                    },
+                    {
+                        "adapter_number": 29,
+                        "port_name": "sfp-sfpplus22"
+                    },
+                    {
+                        "adapter_number": 30,
+                        "port_name": "sfp-sfpplus23"
+                    },
+                    {
+                        "adapter_number": 31,
+                        "port_name": "sfp-sfpplus24"
+                    },
+                    {
+                        "adapter_number": 32,
+                        "port_name": "ether1"
+                    }
+                ],
+                "first_port_name": "",
+                "height": 32,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "MT-CRS326-A-01",
+                    "x": -110,
+                    "y": 5
+                },
+                "locked": false,
+                "name": "MT-CRS326-A-01",
+                "node_id": "22520bb4-578a-40f4-9990-865899f06a2e",
+                "node_type": "qemu",
+                "port_name_format": "sfp-sfpplus",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "virtio-net-pci",
+                    "adapters": 33,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "c",
+                    "cdrom_image": "",
+                    "cdrom_image_md5sum": null,
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "hda_disk_image": "chr-6.46.5.img",
+                    "hda_disk_image_md5sum": "39dea5d6a58708eebfa73332456566f4",
+                    "hda_disk_interface": "virtio",
+                    "hdb_disk_image": "",
+                    "hdb_disk_image_md5sum": null,
+                    "hdb_disk_interface": "ide",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "ide",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "ide",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "legacy_networking": false,
+                    "linked_clone": true,
+                    "mac_address": "0c:c9:30:bc:94:00",
+                    "on_close": "power_off",
+                    "options": "-nographic",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 128,
+                    "replicate_network_connection_state": true,
+                    "usage": "If you'd like a different sized main disk, resize the image before booting the VM for the first time.\n\nOn first boot, RouterOS is actually being installed, formatting the whole main virtual disk, before finally rebooting. That whole process may take a minute or so.\n\nThe console will become available after the installation is complete. Most Telnet/SSH clients (certainly SuperPutty) will keep retrying to connect, thus letting you know when installation is done.\n\nFrom that point on, everything about RouterOS is also true about Cloud Hosted Router, including the default credentials: Username \"admin\" and an empty password.\n\nThe primary differences between RouterOS and CHR are in support for virtual devices (this appliance comes with them being selected), and in the different license model, for which you can read more about at http://wiki.mikrotik.com/wiki/Manual:CHR."
+                },
+                "symbol": ":/symbols/classic/ethernet_switch.svg",
+                "template_id": "1f1de79d-d800-4d87-8900-a214f9bd2761",
+                "width": 72,
+                "x": -485,
+                "y": 59,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5010,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [
+                    {
+                        "adapter_number": 0,
+                        "port_name": "qsfpplus1-1"
+                    },
+                    {
+                        "adapter_number": 1,
+                        "port_name": "qsfpplus1-2"
+                    },
+                    {
+                        "adapter_number": 2,
+                        "port_name": "qsfpplus1-3"
+                    },
+                    {
+                        "adapter_number": 3,
+                        "port_name": "qsfpplus1-4"
+                    },
+                    {
+                        "adapter_number": 4,
+                        "port_name": "qsfpplus2-1"
+                    },
+                    {
+                        "adapter_number": 5,
+                        "port_name": "qsfpplus2-2"
+                    },
+                    {
+                        "adapter_number": 6,
+                        "port_name": "qsfpplus2-3"
+                    },
+                    {
+                        "adapter_number": 7,
+                        "port_name": "qsfpplus2-4"
+                    },
+                    {
+                        "adapter_number": 8,
+                        "port_name": "sfp-sfpplus1"
+                    },
+                    {
+                        "adapter_number": 9,
+                        "port_name": "sfp-sfpplus2"
+                    },
+                    {
+                        "adapter_number": 10,
+                        "port_name": "sfp-sfpplus3"
+                    },
+                    {
+                        "adapter_number": 11,
+                        "port_name": "sfp-sfpplus4"
+                    },
+                    {
+                        "adapter_number": 12,
+                        "port_name": "sfp-sfpplus5"
+                    },
+                    {
+                        "adapter_number": 13,
+                        "port_name": "sfp-sfpplus6"
+                    },
+                    {
+                        "adapter_number": 14,
+                        "port_name": "sfp-sfpplus7"
+                    },
+                    {
+                        "adapter_number": 15,
+                        "port_name": "sfp-sfpplus8"
+                    },
+                    {
+                        "adapter_number": 16,
+                        "port_name": "sfp-sfpplus9"
+                    },
+                    {
+                        "adapter_number": 17,
+                        "port_name": "sfp-sfpplus10"
+                    },
+                    {
+                        "adapter_number": 18,
+                        "port_name": "sfp-sfpplus11"
+                    },
+                    {
+                        "adapter_number": 19,
+                        "port_name": "sfp-sfpplus12"
+                    },
+                    {
+                        "adapter_number": 20,
+                        "port_name": "sfp-sfpplus13"
+                    },
+                    {
+                        "adapter_number": 21,
+                        "port_name": "sfp-sfpplus14"
+                    },
+                    {
+                        "adapter_number": 22,
+                        "port_name": "sfp-sfpplus15"
+                    },
+                    {
+                        "adapter_number": 23,
+                        "port_name": "sfp-sfpplus16"
+                    },
+                    {
+                        "adapter_number": 24,
+                        "port_name": "sfp-sfpplus17"
+                    },
+                    {
+                        "adapter_number": 25,
+                        "port_name": "sfp-sfpplus18"
+                    },
+                    {
+                        "adapter_number": 26,
+                        "port_name": "sfp-sfpplus19"
+                    },
+                    {
+                        "adapter_number": 27,
+                        "port_name": "sfp-sfpplus20"
+                    },
+                    {
+                        "adapter_number": 28,
+                        "port_name": "sfp-sfpplus21"
+                    },
+                    {
+                        "adapter_number": 29,
+                        "port_name": "sfp-sfpplus22"
+                    },
+                    {
+                        "adapter_number": 30,
+                        "port_name": "sfp-sfpplus23"
+                    },
+                    {
+                        "adapter_number": 31,
+                        "port_name": "sfp-sfpplus24"
+                    },
+                    {
+                        "adapter_number": 32,
+                        "port_name": "ether1"
+                    }
+                ],
+                "first_port_name": "",
+                "height": 32,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "MT-CRS326-A-02",
+                    "x": 80,
+                    "y": 4
+                },
+                "locked": false,
+                "name": "MT-CRS326-A-02",
+                "node_id": "e8d86264-1c50-4b88-849b-4206037fc9f4",
+                "node_type": "qemu",
+                "port_name_format": "sfp-sfpplus",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "virtio-net-pci",
+                    "adapters": 33,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "c",
+                    "cdrom_image": "",
+                    "cdrom_image_md5sum": null,
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "hda_disk_image": "chr-6.46.5.img",
+                    "hda_disk_image_md5sum": "39dea5d6a58708eebfa73332456566f4",
+                    "hda_disk_interface": "virtio",
+                    "hdb_disk_image": "",
+                    "hdb_disk_image_md5sum": null,
+                    "hdb_disk_interface": "ide",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "ide",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "ide",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "legacy_networking": false,
+                    "linked_clone": true,
+                    "mac_address": "0c:c9:30:a4:91:00",
+                    "on_close": "power_off",
+                    "options": "-nographic",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 128,
+                    "replicate_network_connection_state": true,
+                    "usage": "If you'd like a different sized main disk, resize the image before booting the VM for the first time.\n\nOn first boot, RouterOS is actually being installed, formatting the whole main virtual disk, before finally rebooting. That whole process may take a minute or so.\n\nThe console will become available after the installation is complete. Most Telnet/SSH clients (certainly SuperPutty) will keep retrying to connect, thus letting you know when installation is done.\n\nFrom that point on, everything about RouterOS is also true about Cloud Hosted Router, including the default credentials: Username \"admin\" and an empty password.\n\nThe primary differences between RouterOS and CHR are in support for virtual devices (this appliance comes with them being selected), and in the different license model, for which you can read more about at http://wiki.mikrotik.com/wiki/Manual:CHR."
+                },
+                "symbol": ":/symbols/classic/ethernet_switch.svg",
+                "template_id": "1f1de79d-d800-4d87-8900-a214f9bd2761",
+                "width": 72,
+                "x": 264,
+                "y": 59,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5013,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [
+                    {
+                        "adapter_number": 0,
+                        "port_name": "ether1"
+                    },
+                    {
+                        "adapter_number": 1,
+                        "port_name": "ether2"
+                    },
+                    {
+                        "adapter_number": 2,
+                        "port_name": "ether3"
+                    },
+                    {
+                        "adapter_number": 3,
+                        "port_name": "ether4"
+                    },
+                    {
+                        "adapter_number": 4,
+                        "port_name": "ether5"
+                    },
+                    {
+                        "adapter_number": 5,
+                        "port_name": "ether6"
+                    },
+                    {
+                        "adapter_number": 6,
+                        "port_name": "ether7"
+                    },
+                    {
+                        "adapter_number": 7,
+                        "port_name": "ether8"
+                    },
+                    {
+                        "adapter_number": 8,
+                        "port_name": "ether9"
+                    },
+                    {
+                        "adapter_number": 9,
+                        "port_name": "ether10"
+                    },
+                    {
+                        "adapter_number": 10,
+                        "port_name": "ether11"
+                    },
+                    {
+                        "adapter_number": 11,
+                        "port_name": "ether12"
+                    },
+                    {
+                        "adapter_number": 12,
+                        "port_name": "ether13"
+                    },
+                    {
+                        "adapter_number": 13,
+                        "port_name": "ether14"
+                    },
+                    {
+                        "adapter_number": 14,
+                        "port_name": "ether15"
+                    },
+                    {
+                        "adapter_number": 15,
+                        "port_name": "ether16"
+                    },
+                    {
+                        "adapter_number": 16,
+                        "port_name": "ether17"
+                    },
+                    {
+                        "adapter_number": 17,
+                        "port_name": "ether18"
+                    },
+                    {
+                        "adapter_number": 18,
+                        "port_name": "ether19"
+                    },
+                    {
+                        "adapter_number": 19,
+                        "port_name": "ether20"
+                    },
+                    {
+                        "adapter_number": 20,
+                        "port_name": "ether21"
+                    },
+                    {
+                        "adapter_number": 21,
+                        "port_name": "ether22"
+                    },
+                    {
+                        "adapter_number": 22,
+                        "port_name": "ether23"
+                    },
+                    {
+                        "adapter_number": 23,
+                        "port_name": "ether24"
+                    },
+                    {
+                        "adapter_number": 24,
+                        "port_name": "ether25"
+                    },
+                    {
+                        "adapter_number": 25,
+                        "port_name": "ether26"
+                    },
+                    {
+                        "adapter_number": 26,
+                        "port_name": "ether27"
+                    },
+                    {
+                        "adapter_number": 27,
+                        "port_name": "ether28"
+                    },
+                    {
+                        "adapter_number": 28,
+                        "port_name": "ether29"
+                    },
+                    {
+                        "adapter_number": 29,
+                        "port_name": "ether30"
+                    },
+                    {
+                        "adapter_number": 30,
+                        "port_name": "ether31"
+                    },
+                    {
+                        "adapter_number": 31,
+                        "port_name": "ether32"
+                    },
+                    {
+                        "adapter_number": 32,
+                        "port_name": "ether33"
+                    },
+                    {
+                        "adapter_number": 33,
+                        "port_name": "ether34"
+                    },
+                    {
+                        "adapter_number": 34,
+                        "port_name": "ether35"
+                    },
+                    {
+                        "adapter_number": 35,
+                        "port_name": "ether36"
+                    },
+                    {
+                        "adapter_number": 36,
+                        "port_name": "ether37"
+                    },
+                    {
+                        "adapter_number": 37,
+                        "port_name": "ether38"
+                    },
+                    {
+                        "adapter_number": 38,
+                        "port_name": "ether39"
+                    },
+                    {
+                        "adapter_number": 39,
+                        "port_name": "ether40"
+                    },
+                    {
+                        "adapter_number": 40,
+                        "port_name": "ether41"
+                    },
+                    {
+                        "adapter_number": 41,
+                        "port_name": "ether42"
+                    },
+                    {
+                        "adapter_number": 42,
+                        "port_name": "ether43"
+                    },
+                    {
+                        "adapter_number": 43,
+                        "port_name": "ether44"
+                    },
+                    {
+                        "adapter_number": 44,
+                        "port_name": "ether45"
+                    },
+                    {
+                        "adapter_number": 45,
+                        "port_name": "ether46"
+                    },
+                    {
+                        "adapter_number": 46,
+                        "port_name": "ether47"
+                    },
+                    {
+                        "adapter_number": 47,
+                        "port_name": "ether48"
+                    },
+                    {
+                        "adapter_number": 48,
+                        "port_name": "ether49"
+                    },
+                    {
+                        "adapter_number": 49,
+                        "port_name": "qsfpplus1-1"
+                    },
+                    {
+                        "adapter_number": 50,
+                        "port_name": "qsfpplus1-2"
+                    },
+                    {
+                        "adapter_number": 51,
+                        "port_name": "qsfpplus1-3"
+                    },
+                    {
+                        "adapter_number": 52,
+                        "port_name": "qsfpplus1-4"
+                    },
+                    {
+                        "adapter_number": 53,
+                        "port_name": "qsfpplus2-1"
+                    },
+                    {
+                        "adapter_number": 54,
+                        "port_name": "qsfpplus2-2"
+                    },
+                    {
+                        "adapter_number": 55,
+                        "port_name": "qsfpplus2-3"
+                    },
+                    {
+                        "adapter_number": 56,
+                        "port_name": "qsfpplus2-4"
+                    },
+                    {
+                        "adapter_number": 57,
+                        "port_name": "sfp-sfpplus1"
+                    },
+                    {
+                        "adapter_number": 58,
+                        "port_name": "sfp-sfpplus2"
+                    },
+                    {
+                        "adapter_number": 59,
+                        "port_name": "sfp-sfpplus3"
+                    },
+                    {
+                        "adapter_number": 60,
+                        "port_name": "sfp-sfpplus4"
+                    }
+                ],
+                "first_port_name": "",
+                "height": 32,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "MT-CRS354-S-01",
+                    "x": -22,
+                    "y": 35
+                },
+                "locked": false,
+                "name": "MT-CRS354-S-01",
+                "node_id": "e91b403f-48f7-4581-ba88-4e552a4082d2",
+                "node_type": "qemu",
+                "port_name_format": "ether{port1}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "virtio-net-pci",
+                    "adapters": 61,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "c",
+                    "cdrom_image": "",
+                    "cdrom_image_md5sum": null,
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "hda_disk_image": "chr-6.46.5.img",
+                    "hda_disk_image_md5sum": "39dea5d6a58708eebfa73332456566f4",
+                    "hda_disk_interface": "virtio",
+                    "hdb_disk_image": "",
+                    "hdb_disk_image_md5sum": null,
+                    "hdb_disk_interface": "ide",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "ide",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "ide",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "legacy_networking": false,
+                    "linked_clone": true,
+                    "mac_address": "0c:ef:dc:4b:0a:00",
+                    "on_close": "power_off",
+                    "options": "-nographic",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 128,
+                    "replicate_network_connection_state": true,
+                    "usage": "If you'd like a different sized main disk, resize the image before booting the VM for the first time.\n\nOn first boot, RouterOS is actually being installed, formatting the whole main virtual disk, before finally rebooting. That whole process may take a minute or so.\n\nThe console will become available after the installation is complete. Most Telnet/SSH clients (certainly SuperPutty) will keep retrying to connect, thus letting you know when installation is done.\n\nFrom that point on, everything about RouterOS is also true about Cloud Hosted Router, including the default credentials: Username \"admin\" and an empty password.\n\nThe primary differences between RouterOS and CHR are in support for virtual devices (this appliance comes with them being selected), and in the different license model, for which you can read more about at http://wiki.mikrotik.com/wiki/Manual:CHR."
+                },
+                "symbol": ":/symbols/classic/ethernet_switch.svg",
+                "template_id": "59e7c624-bf06-4e58-8c13-7e88dd32c857",
+                "width": 72,
+                "x": -335,
+                "y": 284,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5021,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [
+                    {
+                        "adapter_number": 0,
+                        "port_name": "ether1"
+                    },
+                    {
+                        "adapter_number": 1,
+                        "port_name": "ether2"
+                    },
+                    {
+                        "adapter_number": 2,
+                        "port_name": "ether3"
+                    },
+                    {
+                        "adapter_number": 3,
+                        "port_name": "ether4"
+                    },
+                    {
+                        "adapter_number": 4,
+                        "port_name": "ether5"
+                    },
+                    {
+                        "adapter_number": 5,
+                        "port_name": "ether6"
+                    },
+                    {
+                        "adapter_number": 6,
+                        "port_name": "ether7"
+                    },
+                    {
+                        "adapter_number": 7,
+                        "port_name": "ether8"
+                    },
+                    {
+                        "adapter_number": 8,
+                        "port_name": "ether9"
+                    },
+                    {
+                        "adapter_number": 9,
+                        "port_name": "ether10"
+                    },
+                    {
+                        "adapter_number": 10,
+                        "port_name": "ether11"
+                    },
+                    {
+                        "adapter_number": 11,
+                        "port_name": "ether12"
+                    },
+                    {
+                        "adapter_number": 12,
+                        "port_name": "ether13"
+                    },
+                    {
+                        "adapter_number": 13,
+                        "port_name": "ether14"
+                    },
+                    {
+                        "adapter_number": 14,
+                        "port_name": "ether15"
+                    },
+                    {
+                        "adapter_number": 15,
+                        "port_name": "ether16"
+                    },
+                    {
+                        "adapter_number": 16,
+                        "port_name": "ether17"
+                    },
+                    {
+                        "adapter_number": 17,
+                        "port_name": "ether18"
+                    },
+                    {
+                        "adapter_number": 18,
+                        "port_name": "ether19"
+                    },
+                    {
+                        "adapter_number": 19,
+                        "port_name": "ether20"
+                    },
+                    {
+                        "adapter_number": 20,
+                        "port_name": "ether21"
+                    },
+                    {
+                        "adapter_number": 21,
+                        "port_name": "ether22"
+                    },
+                    {
+                        "adapter_number": 22,
+                        "port_name": "ether23"
+                    },
+                    {
+                        "adapter_number": 23,
+                        "port_name": "ether24"
+                    },
+                    {
+                        "adapter_number": 24,
+                        "port_name": "ether25"
+                    },
+                    {
+                        "adapter_number": 25,
+                        "port_name": "ether26"
+                    },
+                    {
+                        "adapter_number": 26,
+                        "port_name": "ether27"
+                    },
+                    {
+                        "adapter_number": 27,
+                        "port_name": "ether28"
+                    },
+                    {
+                        "adapter_number": 28,
+                        "port_name": "ether29"
+                    },
+                    {
+                        "adapter_number": 29,
+                        "port_name": "ether30"
+                    },
+                    {
+                        "adapter_number": 30,
+                        "port_name": "ether31"
+                    },
+                    {
+                        "adapter_number": 31,
+                        "port_name": "ether32"
+                    },
+                    {
+                        "adapter_number": 32,
+                        "port_name": "ether33"
+                    },
+                    {
+                        "adapter_number": 33,
+                        "port_name": "ether34"
+                    },
+                    {
+                        "adapter_number": 34,
+                        "port_name": "ether35"
+                    },
+                    {
+                        "adapter_number": 35,
+                        "port_name": "ether36"
+                    },
+                    {
+                        "adapter_number": 36,
+                        "port_name": "ether37"
+                    },
+                    {
+                        "adapter_number": 37,
+                        "port_name": "ether38"
+                    },
+                    {
+                        "adapter_number": 38,
+                        "port_name": "ether39"
+                    },
+                    {
+                        "adapter_number": 39,
+                        "port_name": "ether40"
+                    },
+                    {
+                        "adapter_number": 40,
+                        "port_name": "ether41"
+                    },
+                    {
+                        "adapter_number": 41,
+                        "port_name": "ether42"
+                    },
+                    {
+                        "adapter_number": 42,
+                        "port_name": "ether43"
+                    },
+                    {
+                        "adapter_number": 43,
+                        "port_name": "ether44"
+                    },
+                    {
+                        "adapter_number": 44,
+                        "port_name": "ether45"
+                    },
+                    {
+                        "adapter_number": 45,
+                        "port_name": "ether46"
+                    },
+                    {
+                        "adapter_number": 46,
+                        "port_name": "ether47"
+                    },
+                    {
+                        "adapter_number": 47,
+                        "port_name": "ether48"
+                    },
+                    {
+                        "adapter_number": 48,
+                        "port_name": "ether49"
+                    },
+                    {
+                        "adapter_number": 49,
+                        "port_name": "qsfpplus1-1"
+                    },
+                    {
+                        "adapter_number": 50,
+                        "port_name": "qsfpplus1-2"
+                    },
+                    {
+                        "adapter_number": 51,
+                        "port_name": "qsfpplus1-3"
+                    },
+                    {
+                        "adapter_number": 52,
+                        "port_name": "qsfpplus1-4"
+                    },
+                    {
+                        "adapter_number": 53,
+                        "port_name": "qsfpplus2-1"
+                    },
+                    {
+                        "adapter_number": 54,
+                        "port_name": "qsfpplus2-2"
+                    },
+                    {
+                        "adapter_number": 55,
+                        "port_name": "qsfpplus2-3"
+                    },
+                    {
+                        "adapter_number": 56,
+                        "port_name": "qsfpplus2-4"
+                    },
+                    {
+                        "adapter_number": 57,
+                        "port_name": "sfp-sfpplus1"
+                    },
+                    {
+                        "adapter_number": 58,
+                        "port_name": "sfp-sfpplus2"
+                    },
+                    {
+                        "adapter_number": 59,
+                        "port_name": "sfp-sfpplus3"
+                    },
+                    {
+                        "adapter_number": 60,
+                        "port_name": "sfp-sfpplus4"
+                    }
+                ],
+                "first_port_name": "",
+                "height": 32,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "MT-CRS354-P-02",
+                    "x": -19,
+                    "y": 34
+                },
+                "locked": false,
+                "name": "MT-CRS354-P-02",
+                "node_id": "a7089e9b-93b5-4ad7-aa0b-e2389d867573",
+                "node_type": "qemu",
+                "port_name_format": "ether{port1}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "virtio-net-pci",
+                    "adapters": 61,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "c",
+                    "cdrom_image": "",
+                    "cdrom_image_md5sum": null,
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "hda_disk_image": "chr-6.46.5.img",
+                    "hda_disk_image_md5sum": "39dea5d6a58708eebfa73332456566f4",
+                    "hda_disk_interface": "virtio",
+                    "hdb_disk_image": "",
+                    "hdb_disk_image_md5sum": null,
+                    "hdb_disk_interface": "ide",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "ide",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "ide",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "legacy_networking": false,
+                    "linked_clone": true,
+                    "mac_address": "0c:ef:dc:68:51:00",
+                    "on_close": "power_off",
+                    "options": "-nographic",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 128,
+                    "replicate_network_connection_state": true,
+                    "usage": "If you'd like a different sized main disk, resize the image before booting the VM for the first time.\n\nOn first boot, RouterOS is actually being installed, formatting the whole main virtual disk, before finally rebooting. That whole process may take a minute or so.\n\nThe console will become available after the installation is complete. Most Telnet/SSH clients (certainly SuperPutty) will keep retrying to connect, thus letting you know when installation is done.\n\nFrom that point on, everything about RouterOS is also true about Cloud Hosted Router, including the default credentials: Username \"admin\" and an empty password.\n\nThe primary differences between RouterOS and CHR are in support for virtual devices (this appliance comes with them being selected), and in the different license model, for which you can read more about at http://wiki.mikrotik.com/wiki/Manual:CHR."
+                },
+                "symbol": ":/symbols/classic/ethernet_switch.svg",
+                "template_id": "59e7c624-bf06-4e58-8c13-7e88dd32c857",
+                "width": 72,
+                "x": -185,
+                "y": 284,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5027,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [
+                    {
+                        "adapter_number": 0,
+                        "port_name": "ether1"
+                    },
+                    {
+                        "adapter_number": 1,
+                        "port_name": "ether2"
+                    },
+                    {
+                        "adapter_number": 2,
+                        "port_name": "ether3"
+                    },
+                    {
+                        "adapter_number": 3,
+                        "port_name": "ether4"
+                    },
+                    {
+                        "adapter_number": 4,
+                        "port_name": "ether5"
+                    },
+                    {
+                        "adapter_number": 5,
+                        "port_name": "ether6"
+                    },
+                    {
+                        "adapter_number": 6,
+                        "port_name": "ether7"
+                    },
+                    {
+                        "adapter_number": 7,
+                        "port_name": "ether8"
+                    },
+                    {
+                        "adapter_number": 8,
+                        "port_name": "ether9"
+                    },
+                    {
+                        "adapter_number": 9,
+                        "port_name": "ether10"
+                    },
+                    {
+                        "adapter_number": 10,
+                        "port_name": "ether11"
+                    },
+                    {
+                        "adapter_number": 11,
+                        "port_name": "ether12"
+                    },
+                    {
+                        "adapter_number": 12,
+                        "port_name": "ether13"
+                    },
+                    {
+                        "adapter_number": 13,
+                        "port_name": "ether14"
+                    },
+                    {
+                        "adapter_number": 14,
+                        "port_name": "ether15"
+                    },
+                    {
+                        "adapter_number": 15,
+                        "port_name": "ether16"
+                    },
+                    {
+                        "adapter_number": 16,
+                        "port_name": "ether17"
+                    },
+                    {
+                        "adapter_number": 17,
+                        "port_name": "ether18"
+                    },
+                    {
+                        "adapter_number": 18,
+                        "port_name": "ether19"
+                    },
+                    {
+                        "adapter_number": 19,
+                        "port_name": "ether20"
+                    },
+                    {
+                        "adapter_number": 20,
+                        "port_name": "ether21"
+                    },
+                    {
+                        "adapter_number": 21,
+                        "port_name": "ether22"
+                    },
+                    {
+                        "adapter_number": 22,
+                        "port_name": "ether23"
+                    },
+                    {
+                        "adapter_number": 23,
+                        "port_name": "ether24"
+                    },
+                    {
+                        "adapter_number": 24,
+                        "port_name": "ether25"
+                    },
+                    {
+                        "adapter_number": 25,
+                        "port_name": "ether26"
+                    },
+                    {
+                        "adapter_number": 26,
+                        "port_name": "ether27"
+                    },
+                    {
+                        "adapter_number": 27,
+                        "port_name": "ether28"
+                    },
+                    {
+                        "adapter_number": 28,
+                        "port_name": "ether29"
+                    },
+                    {
+                        "adapter_number": 29,
+                        "port_name": "ether30"
+                    },
+                    {
+                        "adapter_number": 30,
+                        "port_name": "ether31"
+                    },
+                    {
+                        "adapter_number": 31,
+                        "port_name": "ether32"
+                    },
+                    {
+                        "adapter_number": 32,
+                        "port_name": "ether33"
+                    },
+                    {
+                        "adapter_number": 33,
+                        "port_name": "ether34"
+                    },
+                    {
+                        "adapter_number": 34,
+                        "port_name": "ether35"
+                    },
+                    {
+                        "adapter_number": 35,
+                        "port_name": "ether36"
+                    },
+                    {
+                        "adapter_number": 36,
+                        "port_name": "ether37"
+                    },
+                    {
+                        "adapter_number": 37,
+                        "port_name": "ether38"
+                    },
+                    {
+                        "adapter_number": 38,
+                        "port_name": "ether39"
+                    },
+                    {
+                        "adapter_number": 39,
+                        "port_name": "ether40"
+                    },
+                    {
+                        "adapter_number": 40,
+                        "port_name": "ether41"
+                    },
+                    {
+                        "adapter_number": 41,
+                        "port_name": "ether42"
+                    },
+                    {
+                        "adapter_number": 42,
+                        "port_name": "ether43"
+                    },
+                    {
+                        "adapter_number": 43,
+                        "port_name": "ether44"
+                    },
+                    {
+                        "adapter_number": 44,
+                        "port_name": "ether45"
+                    },
+                    {
+                        "adapter_number": 45,
+                        "port_name": "ether46"
+                    },
+                    {
+                        "adapter_number": 46,
+                        "port_name": "ether47"
+                    },
+                    {
+                        "adapter_number": 47,
+                        "port_name": "ether48"
+                    },
+                    {
+                        "adapter_number": 48,
+                        "port_name": "ether49"
+                    },
+                    {
+                        "adapter_number": 49,
+                        "port_name": "qsfpplus1-1"
+                    },
+                    {
+                        "adapter_number": 50,
+                        "port_name": "qsfpplus1-2"
+                    },
+                    {
+                        "adapter_number": 51,
+                        "port_name": "qsfpplus1-3"
+                    },
+                    {
+                        "adapter_number": 52,
+                        "port_name": "qsfpplus1-4"
+                    },
+                    {
+                        "adapter_number": 53,
+                        "port_name": "qsfpplus2-1"
+                    },
+                    {
+                        "adapter_number": 54,
+                        "port_name": "qsfpplus2-2"
+                    },
+                    {
+                        "adapter_number": 55,
+                        "port_name": "qsfpplus2-3"
+                    },
+                    {
+                        "adapter_number": 56,
+                        "port_name": "qsfpplus2-4"
+                    },
+                    {
+                        "adapter_number": 57,
+                        "port_name": "sfp-sfpplus1"
+                    },
+                    {
+                        "adapter_number": 58,
+                        "port_name": "sfp-sfpplus2"
+                    },
+                    {
+                        "adapter_number": 59,
+                        "port_name": "sfp-sfpplus3"
+                    },
+                    {
+                        "adapter_number": 60,
+                        "port_name": "sfp-sfpplus4"
+                    }
+                ],
+                "first_port_name": "",
+                "height": 32,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "MT-CRS354-P-03",
+                    "x": -19,
+                    "y": 35
+                },
+                "locked": false,
+                "name": "MT-CRS354-P-03",
+                "node_id": "f93e6b0d-85c0-46fa-aa90-719b4806ad4e",
+                "node_type": "qemu",
+                "port_name_format": "ether{port1}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "virtio-net-pci",
+                    "adapters": 61,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "c",
+                    "cdrom_image": "",
+                    "cdrom_image_md5sum": null,
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "hda_disk_image": "chr-6.46.5.img",
+                    "hda_disk_image_md5sum": "39dea5d6a58708eebfa73332456566f4",
+                    "hda_disk_interface": "virtio",
+                    "hdb_disk_image": "",
+                    "hdb_disk_image_md5sum": null,
+                    "hdb_disk_interface": "ide",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "ide",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "ide",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "legacy_networking": false,
+                    "linked_clone": true,
+                    "mac_address": "0c:ef:dc:f1:51:00",
+                    "on_close": "power_off",
+                    "options": "-nographic",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 128,
+                    "replicate_network_connection_state": true,
+                    "usage": "If you'd like a different sized main disk, resize the image before booting the VM for the first time.\n\nOn first boot, RouterOS is actually being installed, formatting the whole main virtual disk, before finally rebooting. That whole process may take a minute or so.\n\nThe console will become available after the installation is complete. Most Telnet/SSH clients (certainly SuperPutty) will keep retrying to connect, thus letting you know when installation is done.\n\nFrom that point on, everything about RouterOS is also true about Cloud Hosted Router, including the default credentials: Username \"admin\" and an empty password.\n\nThe primary differences between RouterOS and CHR are in support for virtual devices (this appliance comes with them being selected), and in the different license model, for which you can read more about at http://wiki.mikrotik.com/wiki/Manual:CHR."
+                },
+                "symbol": ":/symbols/classic/ethernet_switch.svg",
+                "template_id": "59e7c624-bf06-4e58-8c13-7e88dd32c857",
+                "width": 72,
+                "x": -35,
+                "y": 284,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5033,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [
+                    {
+                        "adapter_number": 0,
+                        "port_name": "ether1"
+                    },
+                    {
+                        "adapter_number": 1,
+                        "port_name": "ether2"
+                    },
+                    {
+                        "adapter_number": 2,
+                        "port_name": "ether3"
+                    },
+                    {
+                        "adapter_number": 3,
+                        "port_name": "ether4"
+                    },
+                    {
+                        "adapter_number": 4,
+                        "port_name": "ether5"
+                    },
+                    {
+                        "adapter_number": 5,
+                        "port_name": "ether6"
+                    },
+                    {
+                        "adapter_number": 6,
+                        "port_name": "ether7"
+                    },
+                    {
+                        "adapter_number": 7,
+                        "port_name": "ether8"
+                    },
+                    {
+                        "adapter_number": 8,
+                        "port_name": "ether9"
+                    },
+                    {
+                        "adapter_number": 9,
+                        "port_name": "ether10"
+                    },
+                    {
+                        "adapter_number": 10,
+                        "port_name": "ether11"
+                    },
+                    {
+                        "adapter_number": 11,
+                        "port_name": "ether12"
+                    },
+                    {
+                        "adapter_number": 12,
+                        "port_name": "ether13"
+                    },
+                    {
+                        "adapter_number": 13,
+                        "port_name": "ether14"
+                    },
+                    {
+                        "adapter_number": 14,
+                        "port_name": "ether15"
+                    },
+                    {
+                        "adapter_number": 15,
+                        "port_name": "ether16"
+                    },
+                    {
+                        "adapter_number": 16,
+                        "port_name": "ether17"
+                    },
+                    {
+                        "adapter_number": 17,
+                        "port_name": "ether18"
+                    },
+                    {
+                        "adapter_number": 18,
+                        "port_name": "ether19"
+                    },
+                    {
+                        "adapter_number": 19,
+                        "port_name": "ether20"
+                    },
+                    {
+                        "adapter_number": 20,
+                        "port_name": "ether21"
+                    },
+                    {
+                        "adapter_number": 21,
+                        "port_name": "ether22"
+                    },
+                    {
+                        "adapter_number": 22,
+                        "port_name": "ether23"
+                    },
+                    {
+                        "adapter_number": 23,
+                        "port_name": "ether24"
+                    },
+                    {
+                        "adapter_number": 24,
+                        "port_name": "ether25"
+                    },
+                    {
+                        "adapter_number": 25,
+                        "port_name": "ether26"
+                    },
+                    {
+                        "adapter_number": 26,
+                        "port_name": "ether27"
+                    },
+                    {
+                        "adapter_number": 27,
+                        "port_name": "ether28"
+                    },
+                    {
+                        "adapter_number": 28,
+                        "port_name": "ether29"
+                    },
+                    {
+                        "adapter_number": 29,
+                        "port_name": "ether30"
+                    },
+                    {
+                        "adapter_number": 30,
+                        "port_name": "ether31"
+                    },
+                    {
+                        "adapter_number": 31,
+                        "port_name": "ether32"
+                    },
+                    {
+                        "adapter_number": 32,
+                        "port_name": "ether33"
+                    },
+                    {
+                        "adapter_number": 33,
+                        "port_name": "ether34"
+                    },
+                    {
+                        "adapter_number": 34,
+                        "port_name": "ether35"
+                    },
+                    {
+                        "adapter_number": 35,
+                        "port_name": "ether36"
+                    },
+                    {
+                        "adapter_number": 36,
+                        "port_name": "ether37"
+                    },
+                    {
+                        "adapter_number": 37,
+                        "port_name": "ether38"
+                    },
+                    {
+                        "adapter_number": 38,
+                        "port_name": "ether39"
+                    },
+                    {
+                        "adapter_number": 39,
+                        "port_name": "ether40"
+                    },
+                    {
+                        "adapter_number": 40,
+                        "port_name": "ether41"
+                    },
+                    {
+                        "adapter_number": 41,
+                        "port_name": "ether42"
+                    },
+                    {
+                        "adapter_number": 42,
+                        "port_name": "ether43"
+                    },
+                    {
+                        "adapter_number": 43,
+                        "port_name": "ether44"
+                    },
+                    {
+                        "adapter_number": 44,
+                        "port_name": "ether45"
+                    },
+                    {
+                        "adapter_number": 45,
+                        "port_name": "ether46"
+                    },
+                    {
+                        "adapter_number": 46,
+                        "port_name": "ether47"
+                    },
+                    {
+                        "adapter_number": 47,
+                        "port_name": "ether48"
+                    },
+                    {
+                        "adapter_number": 48,
+                        "port_name": "ether49"
+                    },
+                    {
+                        "adapter_number": 49,
+                        "port_name": "qsfpplus1-1"
+                    },
+                    {
+                        "adapter_number": 50,
+                        "port_name": "qsfpplus1-2"
+                    },
+                    {
+                        "adapter_number": 51,
+                        "port_name": "qsfpplus1-3"
+                    },
+                    {
+                        "adapter_number": 52,
+                        "port_name": "qsfpplus1-4"
+                    },
+                    {
+                        "adapter_number": 53,
+                        "port_name": "qsfpplus2-1"
+                    },
+                    {
+                        "adapter_number": 54,
+                        "port_name": "qsfpplus2-2"
+                    },
+                    {
+                        "adapter_number": 55,
+                        "port_name": "qsfpplus2-3"
+                    },
+                    {
+                        "adapter_number": 56,
+                        "port_name": "qsfpplus2-4"
+                    },
+                    {
+                        "adapter_number": 57,
+                        "port_name": "sfp-sfpplus1"
+                    },
+                    {
+                        "adapter_number": 58,
+                        "port_name": "sfp-sfpplus2"
+                    },
+                    {
+                        "adapter_number": 59,
+                        "port_name": "sfp-sfpplus3"
+                    },
+                    {
+                        "adapter_number": 60,
+                        "port_name": "sfp-sfpplus4"
+                    }
+                ],
+                "first_port_name": "",
+                "height": 32,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "MT-CRS354-P-04",
+                    "x": -18,
+                    "y": 34
+                },
+                "locked": false,
+                "name": "MT-CRS354-P-04",
+                "node_id": "a4098802-4e3a-4563-992c-1796679c55c5",
+                "node_type": "qemu",
+                "port_name_format": "ether{port1}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "virtio-net-pci",
+                    "adapters": 61,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "c",
+                    "cdrom_image": "",
+                    "cdrom_image_md5sum": null,
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "hda_disk_image": "chr-6.46.5.img",
+                    "hda_disk_image_md5sum": "39dea5d6a58708eebfa73332456566f4",
+                    "hda_disk_interface": "virtio",
+                    "hdb_disk_image": "",
+                    "hdb_disk_image_md5sum": null,
+                    "hdb_disk_interface": "ide",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "ide",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "ide",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "legacy_networking": false,
+                    "linked_clone": true,
+                    "mac_address": "0c:ef:dc:3f:62:00",
+                    "on_close": "power_off",
+                    "options": "-nographic",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 128,
+                    "replicate_network_connection_state": true,
+                    "usage": "If you'd like a different sized main disk, resize the image before booting the VM for the first time.\n\nOn first boot, RouterOS is actually being installed, formatting the whole main virtual disk, before finally rebooting. That whole process may take a minute or so.\n\nThe console will become available after the installation is complete. Most Telnet/SSH clients (certainly SuperPutty) will keep retrying to connect, thus letting you know when installation is done.\n\nFrom that point on, everything about RouterOS is also true about Cloud Hosted Router, including the default credentials: Username \"admin\" and an empty password.\n\nThe primary differences between RouterOS and CHR are in support for virtual devices (this appliance comes with them being selected), and in the different license model, for which you can read more about at http://wiki.mikrotik.com/wiki/Manual:CHR."
+                },
+                "symbol": ":/symbols/classic/ethernet_switch.svg",
+                "template_id": "59e7c624-bf06-4e58-8c13-7e88dd32c857",
+                "width": 72,
+                "x": 114,
+                "y": 284,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5039,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [
+                    {
+                        "adapter_number": 0,
+                        "port_name": "ether1"
+                    },
+                    {
+                        "adapter_number": 1,
+                        "port_name": "ether2"
+                    },
+                    {
+                        "adapter_number": 2,
+                        "port_name": "ether3"
+                    },
+                    {
+                        "adapter_number": 3,
+                        "port_name": "ether4"
+                    },
+                    {
+                        "adapter_number": 4,
+                        "port_name": "ether5"
+                    },
+                    {
+                        "adapter_number": 5,
+                        "port_name": "ether6"
+                    },
+                    {
+                        "adapter_number": 6,
+                        "port_name": "ether7"
+                    },
+                    {
+                        "adapter_number": 7,
+                        "port_name": "ether8"
+                    },
+                    {
+                        "adapter_number": 8,
+                        "port_name": "ether9"
+                    },
+                    {
+                        "adapter_number": 9,
+                        "port_name": "ether10"
+                    },
+                    {
+                        "adapter_number": 10,
+                        "port_name": "ether11"
+                    },
+                    {
+                        "adapter_number": 11,
+                        "port_name": "ether12"
+                    },
+                    {
+                        "adapter_number": 12,
+                        "port_name": "ether13"
+                    },
+                    {
+                        "adapter_number": 13,
+                        "port_name": "ether14"
+                    },
+                    {
+                        "adapter_number": 14,
+                        "port_name": "ether15"
+                    },
+                    {
+                        "adapter_number": 15,
+                        "port_name": "ether16"
+                    },
+                    {
+                        "adapter_number": 16,
+                        "port_name": "ether17"
+                    },
+                    {
+                        "adapter_number": 17,
+                        "port_name": "ether18"
+                    },
+                    {
+                        "adapter_number": 18,
+                        "port_name": "ether19"
+                    },
+                    {
+                        "adapter_number": 19,
+                        "port_name": "ether20"
+                    },
+                    {
+                        "adapter_number": 20,
+                        "port_name": "ether21"
+                    },
+                    {
+                        "adapter_number": 21,
+                        "port_name": "ether22"
+                    },
+                    {
+                        "adapter_number": 22,
+                        "port_name": "ether23"
+                    },
+                    {
+                        "adapter_number": 23,
+                        "port_name": "ether24"
+                    },
+                    {
+                        "adapter_number": 24,
+                        "port_name": "ether25"
+                    },
+                    {
+                        "adapter_number": 25,
+                        "port_name": "ether26"
+                    },
+                    {
+                        "adapter_number": 26,
+                        "port_name": "ether27"
+                    },
+                    {
+                        "adapter_number": 27,
+                        "port_name": "ether28"
+                    },
+                    {
+                        "adapter_number": 28,
+                        "port_name": "ether29"
+                    },
+                    {
+                        "adapter_number": 29,
+                        "port_name": "ether30"
+                    },
+                    {
+                        "adapter_number": 30,
+                        "port_name": "ether31"
+                    },
+                    {
+                        "adapter_number": 31,
+                        "port_name": "ether32"
+                    },
+                    {
+                        "adapter_number": 32,
+                        "port_name": "ether33"
+                    },
+                    {
+                        "adapter_number": 33,
+                        "port_name": "ether34"
+                    },
+                    {
+                        "adapter_number": 34,
+                        "port_name": "ether35"
+                    },
+                    {
+                        "adapter_number": 35,
+                        "port_name": "ether36"
+                    },
+                    {
+                        "adapter_number": 36,
+                        "port_name": "ether37"
+                    },
+                    {
+                        "adapter_number": 37,
+                        "port_name": "ether38"
+                    },
+                    {
+                        "adapter_number": 38,
+                        "port_name": "ether39"
+                    },
+                    {
+                        "adapter_number": 39,
+                        "port_name": "ether40"
+                    },
+                    {
+                        "adapter_number": 40,
+                        "port_name": "ether41"
+                    },
+                    {
+                        "adapter_number": 41,
+                        "port_name": "ether42"
+                    },
+                    {
+                        "adapter_number": 42,
+                        "port_name": "ether43"
+                    },
+                    {
+                        "adapter_number": 43,
+                        "port_name": "ether44"
+                    },
+                    {
+                        "adapter_number": 44,
+                        "port_name": "ether45"
+                    },
+                    {
+                        "adapter_number": 45,
+                        "port_name": "ether46"
+                    },
+                    {
+                        "adapter_number": 46,
+                        "port_name": "ether47"
+                    },
+                    {
+                        "adapter_number": 47,
+                        "port_name": "ether48"
+                    },
+                    {
+                        "adapter_number": 48,
+                        "port_name": "ether49"
+                    },
+                    {
+                        "adapter_number": 49,
+                        "port_name": "qsfpplus1-1"
+                    },
+                    {
+                        "adapter_number": 50,
+                        "port_name": "qsfpplus1-2"
+                    },
+                    {
+                        "adapter_number": 51,
+                        "port_name": "qsfpplus1-3"
+                    },
+                    {
+                        "adapter_number": 52,
+                        "port_name": "qsfpplus1-4"
+                    },
+                    {
+                        "adapter_number": 53,
+                        "port_name": "qsfpplus2-1"
+                    },
+                    {
+                        "adapter_number": 54,
+                        "port_name": "qsfpplus2-2"
+                    },
+                    {
+                        "adapter_number": 55,
+                        "port_name": "qsfpplus2-3"
+                    },
+                    {
+                        "adapter_number": 56,
+                        "port_name": "qsfpplus2-4"
+                    },
+                    {
+                        "adapter_number": 57,
+                        "port_name": "sfp-sfpplus1"
+                    },
+                    {
+                        "adapter_number": 58,
+                        "port_name": "sfp-sfpplus2"
+                    },
+                    {
+                        "adapter_number": 59,
+                        "port_name": "sfp-sfpplus3"
+                    },
+                    {
+                        "adapter_number": 60,
+                        "port_name": "sfp-sfpplus4"
+                    }
+                ],
+                "first_port_name": "",
+                "height": 32,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "MT-CRS354-P-05",
+                    "x": -18,
+                    "y": 33
+                },
+                "locked": false,
+                "name": "MT-CRS354-P-05",
+                "node_id": "e0338c96-da38-4f83-885c-a3532c7036f8",
+                "node_type": "qemu",
+                "port_name_format": "ether{port1}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "virtio-net-pci",
+                    "adapters": 61,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "c",
+                    "cdrom_image": "",
+                    "cdrom_image_md5sum": null,
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "hda_disk_image": "chr-6.46.5.img",
+                    "hda_disk_image_md5sum": "39dea5d6a58708eebfa73332456566f4",
+                    "hda_disk_interface": "virtio",
+                    "hdb_disk_image": "",
+                    "hdb_disk_image_md5sum": null,
+                    "hdb_disk_interface": "ide",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "ide",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "ide",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "legacy_networking": false,
+                    "linked_clone": true,
+                    "mac_address": "0c:ef:dc:6f:60:00",
+                    "on_close": "power_off",
+                    "options": "-nographic",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 128,
+                    "replicate_network_connection_state": true,
+                    "usage": "If you'd like a different sized main disk, resize the image before booting the VM for the first time.\n\nOn first boot, RouterOS is actually being installed, formatting the whole main virtual disk, before finally rebooting. That whole process may take a minute or so.\n\nThe console will become available after the installation is complete. Most Telnet/SSH clients (certainly SuperPutty) will keep retrying to connect, thus letting you know when installation is done.\n\nFrom that point on, everything about RouterOS is also true about Cloud Hosted Router, including the default credentials: Username \"admin\" and an empty password.\n\nThe primary differences between RouterOS and CHR are in support for virtual devices (this appliance comes with them being selected), and in the different license model, for which you can read more about at http://wiki.mikrotik.com/wiki/Manual:CHR."
+                },
+                "symbol": ":/symbols/classic/ethernet_switch.svg",
+                "template_id": "59e7c624-bf06-4e58-8c13-7e88dd32c857",
+                "width": 72,
+                "x": 264,
+                "y": 284,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5042,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [
+                    {
+                        "adapter_number": 0,
+                        "port_name": "ether1"
+                    },
+                    {
+                        "adapter_number": 1,
+                        "port_name": "ether2"
+                    },
+                    {
+                        "adapter_number": 2,
+                        "port_name": "ether3"
+                    },
+                    {
+                        "adapter_number": 3,
+                        "port_name": "ether4"
+                    },
+                    {
+                        "adapter_number": 4,
+                        "port_name": "ether5"
+                    },
+                    {
+                        "adapter_number": 5,
+                        "port_name": "ether6"
+                    },
+                    {
+                        "adapter_number": 6,
+                        "port_name": "ether7"
+                    },
+                    {
+                        "adapter_number": 7,
+                        "port_name": "ether8"
+                    },
+                    {
+                        "adapter_number": 8,
+                        "port_name": "ether9"
+                    },
+                    {
+                        "adapter_number": 9,
+                        "port_name": "ether10"
+                    },
+                    {
+                        "adapter_number": 10,
+                        "port_name": "ether11"
+                    },
+                    {
+                        "adapter_number": 11,
+                        "port_name": "ether12"
+                    },
+                    {
+                        "adapter_number": 12,
+                        "port_name": "ether13"
+                    },
+                    {
+                        "adapter_number": 13,
+                        "port_name": "ether14"
+                    },
+                    {
+                        "adapter_number": 14,
+                        "port_name": "ether15"
+                    },
+                    {
+                        "adapter_number": 15,
+                        "port_name": "ether16"
+                    },
+                    {
+                        "adapter_number": 16,
+                        "port_name": "ether17"
+                    },
+                    {
+                        "adapter_number": 17,
+                        "port_name": "ether18"
+                    },
+                    {
+                        "adapter_number": 18,
+                        "port_name": "ether19"
+                    },
+                    {
+                        "adapter_number": 19,
+                        "port_name": "ether20"
+                    },
+                    {
+                        "adapter_number": 20,
+                        "port_name": "ether21"
+                    },
+                    {
+                        "adapter_number": 21,
+                        "port_name": "ether22"
+                    },
+                    {
+                        "adapter_number": 22,
+                        "port_name": "ether23"
+                    },
+                    {
+                        "adapter_number": 23,
+                        "port_name": "ether24"
+                    },
+                    {
+                        "adapter_number": 24,
+                        "port_name": "ether25"
+                    },
+                    {
+                        "adapter_number": 25,
+                        "port_name": "ether26"
+                    },
+                    {
+                        "adapter_number": 26,
+                        "port_name": "ether27"
+                    },
+                    {
+                        "adapter_number": 27,
+                        "port_name": "ether28"
+                    },
+                    {
+                        "adapter_number": 28,
+                        "port_name": "ether29"
+                    },
+                    {
+                        "adapter_number": 29,
+                        "port_name": "ether30"
+                    },
+                    {
+                        "adapter_number": 30,
+                        "port_name": "ether31"
+                    },
+                    {
+                        "adapter_number": 31,
+                        "port_name": "ether32"
+                    },
+                    {
+                        "adapter_number": 32,
+                        "port_name": "ether33"
+                    },
+                    {
+                        "adapter_number": 33,
+                        "port_name": "ether34"
+                    },
+                    {
+                        "adapter_number": 34,
+                        "port_name": "ether35"
+                    },
+                    {
+                        "adapter_number": 35,
+                        "port_name": "ether36"
+                    },
+                    {
+                        "adapter_number": 36,
+                        "port_name": "ether37"
+                    },
+                    {
+                        "adapter_number": 37,
+                        "port_name": "ether38"
+                    },
+                    {
+                        "adapter_number": 38,
+                        "port_name": "ether39"
+                    },
+                    {
+                        "adapter_number": 39,
+                        "port_name": "ether40"
+                    },
+                    {
+                        "adapter_number": 40,
+                        "port_name": "ether41"
+                    },
+                    {
+                        "adapter_number": 41,
+                        "port_name": "ether42"
+                    },
+                    {
+                        "adapter_number": 42,
+                        "port_name": "ether43"
+                    },
+                    {
+                        "adapter_number": 43,
+                        "port_name": "ether44"
+                    },
+                    {
+                        "adapter_number": 44,
+                        "port_name": "ether45"
+                    },
+                    {
+                        "adapter_number": 45,
+                        "port_name": "ether46"
+                    },
+                    {
+                        "adapter_number": 46,
+                        "port_name": "ether47"
+                    },
+                    {
+                        "adapter_number": 47,
+                        "port_name": "ether48"
+                    },
+                    {
+                        "adapter_number": 48,
+                        "port_name": "ether49"
+                    },
+                    {
+                        "adapter_number": 49,
+                        "port_name": "qsfpplus1-1"
+                    },
+                    {
+                        "adapter_number": 50,
+                        "port_name": "qsfpplus1-2"
+                    },
+                    {
+                        "adapter_number": 51,
+                        "port_name": "qsfpplus1-3"
+                    },
+                    {
+                        "adapter_number": 52,
+                        "port_name": "qsfpplus1-4"
+                    },
+                    {
+                        "adapter_number": 53,
+                        "port_name": "qsfpplus2-1"
+                    },
+                    {
+                        "adapter_number": 54,
+                        "port_name": "qsfpplus2-2"
+                    },
+                    {
+                        "adapter_number": 55,
+                        "port_name": "qsfpplus2-3"
+                    },
+                    {
+                        "adapter_number": 56,
+                        "port_name": "qsfpplus2-4"
+                    },
+                    {
+                        "adapter_number": 57,
+                        "port_name": "sfp-sfpplus1"
+                    },
+                    {
+                        "adapter_number": 58,
+                        "port_name": "sfp-sfpplus2"
+                    },
+                    {
+                        "adapter_number": 59,
+                        "port_name": "sfp-sfpplus3"
+                    },
+                    {
+                        "adapter_number": 60,
+                        "port_name": "sfp-sfpplus4"
+                    }
+                ],
+                "first_port_name": "",
+                "height": 32,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "MT-CRS354-P-01",
+                    "x": -20,
+                    "y": 38
+                },
+                "locked": false,
+                "name": "MT-CRS354-P-01",
+                "node_id": "ee76e45b-8639-4c8b-9c5a-4cbd32c64f19",
+                "node_type": "qemu",
+                "port_name_format": "ether{port1}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "virtio-net-pci",
+                    "adapters": 61,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "c",
+                    "cdrom_image": "",
+                    "cdrom_image_md5sum": null,
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "hda_disk_image": "chr-6.46.5.img",
+                    "hda_disk_image_md5sum": "39dea5d6a58708eebfa73332456566f4",
+                    "hda_disk_interface": "virtio",
+                    "hdb_disk_image": "",
+                    "hdb_disk_image_md5sum": null,
+                    "hdb_disk_interface": "ide",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "ide",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "ide",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "legacy_networking": false,
+                    "linked_clone": true,
+                    "mac_address": "0c:ff:86:e1:bb:00",
+                    "on_close": "power_off",
+                    "options": "-nographic",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 128,
+                    "replicate_network_connection_state": true,
+                    "usage": "If you'd like a different sized main disk, resize the image before booting the VM for the first time.\n\nOn first boot, RouterOS is actually being installed, formatting the whole main virtual disk, before finally rebooting. That whole process may take a minute or so.\n\nThe console will become available after the installation is complete. Most Telnet/SSH clients (certainly SuperPutty) will keep retrying to connect, thus letting you know when installation is done.\n\nFrom that point on, everything about RouterOS is also true about Cloud Hosted Router, including the default credentials: Username \"admin\" and an empty password.\n\nThe primary differences between RouterOS and CHR are in support for virtual devices (this appliance comes with them being selected), and in the different license model, for which you can read more about at http://wiki.mikrotik.com/wiki/Manual:CHR."
+                },
+                "symbol": ":/symbols/classic/ethernet_switch.svg",
+                "template_id": "59e7c624-bf06-4e58-8c13-7e88dd32c857",
+                "width": 72,
+                "x": -485,
+                "y": 284,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "variables": null,
+    "version": "2.2.17",
+    "zoom": 100
+}
