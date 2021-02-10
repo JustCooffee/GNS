@@ -33,10 +33,10 @@
 /interface vlan add name=Default vlan-id=666 disabled=no interface=BR
 /interface vlan add name=Management vlan-id=2137 disabled=no interface=BR
 
-/interface add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding1 pvid=666
-/interface add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding2 pvid=666
-/interface add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding3 pvid=666
-/interface add bridge=BR frame-types=admit-only-vlan-tagged interface=ether1 pvid=666
+/interface vlan add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding1 pvid=666
+/interface vlan add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding2 pvid=666
+/interface vlan add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding3 pvid=666
+/interface vlan add bridge=BR frame-types=admit-only-vlan-tagged interface=ether1 pvid=666
 
-/interface add bridge=BR tagged=BR,ether1,bonding1,bonding2,bonding3 vlan-ids=2137
-/interface add bridge=BR tagged=BR,bonding1,bonding2,bonding3 vlan-ids=70,80,90,100
+/interface vlan add bridge=BR tagged=BR,ether1,bonding1,bonding2,bonding3 vlan-ids=2137
+/interface vlan add bridge=BR tagged=BR,bonding1,bonding2,bonding3 vlan-ids=70,80,90,100
