@@ -79,8 +79,8 @@
 
 /interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding4 pvid=666
 /interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding50 pvid=666
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=ether1 pvid=666
+/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=ether49 pvid=666
 
-/interface bridge vlan add bridge=BR tagged=BR,ether1,bonding4,bonding50 vlan-ids=2137
+/interface bridge vlan add bridge=BR tagged=BR,ether49,bonding4,bonding50 vlan-ids=2137
 /interface bridge vlan add bridge=BR tagged=BR,bonding4,bonding50 vlan-ids=70,80,90,100
 
