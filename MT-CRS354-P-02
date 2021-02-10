@@ -64,3 +64,23 @@
 
 /interface bonding add slaves=sfp-sfpplus1,sfp-sfpplus2 name=bonding6 mode=802.3ad
 /interface bonding add slaves=sfp-sfpplus3,sfp-sfpplus4 name=bonding52 mode=802.3ad
+
+
+######################################### VLAN ########################################
+
+/interface bridge add name=BR vlan-filtering=yes pvid=666
+
+/interface vlan add name=Printers vlan-id=70 disabled=no interface=BR
+/interface vlan add name=Guest vlan-id=80 disabled=no interface=BR
+/interface vlan add name=BYOD vlan-id=90 disabled=no interface=BR
+/interface vlan add name=Company_1 vlan-id=100 disabled=no interface=BR
+/interface vlan add name=Blackhole vlan-id=420 disabled=no interface=BR
+/interface vlan add name=Default vlan-id=666 disabled=no interface=BR
+/interface vlan add name=Management vlan-id=2137 disabled=no interface=BR
+
+/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding6 pvid=666
+/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding52 pvid=666
+/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=ether49 pvid=666
+
+/interface bridge vlan add bridge=BR tagged=BR,ether49,bonding6,bonding52 vlan-ids=2137
+/interface bridge vlan add bridge=BR tagged=BR,bonding6,bonding52 vlan-ids=70,80,90,100
