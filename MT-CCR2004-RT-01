@@ -39,3 +39,10 @@
 
 /interface bridge vlan add bridge=BR tagged=BR,ether1,bonding1,bonding2,bonding3 vlan-ids=2137
 /interface bridge vlan add bridge=BR tagged=BR,bonding1,bonding2,bonding3 vlan-ids=70,80,90,100
+
+
+
+############### VRRP ##########################
+
+/interface vrrp add interface=bonding2 vrid=10 priority=100 name=VRRP10
+/ip address add address 10.21.37.254 interface=VRRP10
