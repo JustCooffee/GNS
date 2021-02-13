@@ -46,3 +46,7 @@
 
 /interface vrrp add interface=bonding2 vrid=10 priority=100 name=VRRP10
 /ip address add address 10.21.37.254 interface=VRRP10
+
+
+/interface vrrp add interface=bonding2 vrid=70 priority=100 name=VRRP70
+/ip address add address 10.70.0.254 interface=VRRP70
