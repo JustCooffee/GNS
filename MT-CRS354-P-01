@@ -97,3 +97,43 @@ interface bridge port add bridge=BR interface=ether7 frame-types=admit-only-vlan
 interface bridge port add bridge=BR interface=ether8 frame-types=admit-only-vlan-tagged pvid=666
 interface bridge port add bridge=BR interface=ether9 frame-types=admit-only-vlan-tagged pvid=666
 interface bridge port add bridge=BR interface=ether10 frame-types=admit-only-vlan-tagged pvid=666
+
+################################## OFF INTERFACES ########################################
+/interface disable 11
+/interface disable 12
+/interface disable 13
+/interface disable 14
+/interface disable 15
+/interface disable 16
+/interface disable 17
+/interface disable 18
+/interface disable 19
+/interface disable 20
+/interface disable 21
+/interface disable 22
+/interface disable 23
+/interface disable 24
+/interface disable 25
+/interface disable 26
+/interface disable 27
+/interface disable 28
+/interface disable 29
+/interface disable 30
+/interface disable 31
+/interface disable 32
+/interface disable 33
+/interface disable 34
+/interface disable 35
+/interface disable 36
+/interface disable 37
+/interface disable 38
+/interface disable 39
+/interface disable 40
+/interface disable 41
+/interface disable 42
+/interface disable 43
+/interface disable 44
+/interface disable 45
+/interface disable 46
+/interface disable 47
+
