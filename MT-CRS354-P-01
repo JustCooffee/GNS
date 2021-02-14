@@ -154,7 +154,7 @@ interface bridge port add bridge=BR interface=ether10 frame-types=admit-only-vla
 ################################# ADD TO BALCKHOLE ###############################
 
 /interface bridge add name=BR420
-/interace vlan add interface=BR420 name=VALN420 vlan-id=420
+/interface vlan add interface=BR420 name=VALN420 vlan-id=420
 
 /interface bridge port add bridge=BR420 interface=VLAN420
 /interface bridge port add bridge=br420 interface=ether11
