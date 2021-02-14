@@ -50,3 +50,31 @@
 
 /interface vrrp add interface=bonding2 vrid=70 priority=101 name=VRRP70
 /ip address add address 10.70.0.254 interface=VRRP70
+
+
+##################################### DISABLE INTERFACES ############################################
+
+/interface disable sfp-sfpplus5
+/interface disable sfp-sfpplus6
+/interface disable sfp-sfpplus7
+/interface disable sfp-sfpplus8
+/interface disable sfp-sfpplus9
+/interface disable sfp-sfpplus10
+/interface disable sfp-sfpplus11
+/interface disable sfp-sfpplus12
+
+
+################################# BLACKHOLE VLAN #####################################
+
+/interface bridge add name=BR420
+/interface vlan add interface=BR420 name=VLAN420 vlan-id=420
+
+/interface bridge port add bridge=BR420 interface=VLAN420
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus5
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus6
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus7
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus8
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus9
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus10
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus11
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus12
