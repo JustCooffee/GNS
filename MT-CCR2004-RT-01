@@ -62,7 +62,6 @@
 /interface disable sfp-sfpplus10
 /interface disable sfp-sfpplus11
 /interface disable sfp-sfpplus12
-/interface disable sfp-sfpplus13
 
 
 ################################# BLACKHOLE VLAN #####################################
@@ -79,4 +78,3 @@
 /interface bridge port add bridge=BR420 interface=sfp-sfpplus10
 /interface bridge port add bridge=BR420 interface=sfp-sfpplus11
 /interface bridge port add bridge=BR420 interface=sfp-sfpplus12
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus13
