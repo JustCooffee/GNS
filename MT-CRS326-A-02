@@ -70,3 +70,39 @@
 
 /interface bridge vlan add bridge=BR tagged=BR,ether1,bonding1,bonding2,bonding3,bonding50,bonding51,bonding52,bonding53,bonding54,bonding55 vlan-ids=2137
 /interface bridge vlan add bridge=BR tagged=BR,bonding1,bonding2,bonding3,bonding50,bonding51,bonding52,bonding53,bonding54,bonding55 vlan-ids=70,80,90,100
+
+
+##################################### DISABLE INTERFACES ############################################
+
+/interface disable sfp-sfpplus13
+/interface disable sfp-sfpplus14
+/interface disable sfp-sfpplus15
+/interface disable sfp-sfpplus16
+/interface disable sfp-sfpplus17
+/interface disable sfp-sfpplus18
+/interface disable sfp-sfpplus19
+/interface disable sfp-sfpplus20
+/interface disable sfp-sfpplus21
+/interface disable sfp-sfpplus22
+/interface disable sfp-sfpplus23
+/interface disable sfp-sfpplus24
+
+
+################################# BLACKHOLE VLAN #####################################
+
+/interface bridge add name=BR420
+/interface vlan add interface=BR420 name=VLAN420 vlan-id=420
+
+/interface bridge port add bridge=BR420 interface=VLAN420
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus13
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus14
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus15
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus16
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus17
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus18
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus19
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus20
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus21
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus22
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus23
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus24
