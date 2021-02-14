@@ -84,3 +84,15 @@
 
 /interface bridge vlan add bridge=BR tagged=BR,ether49,bonding7,bonding53 vlan-ids=2137
 /interface bridge vlan add bridge=BR tagged=BR,bonding7,bonding53 vlan-ids=70,80,90,100
+
+###################################### TRUNK AP #########################################
+interface bridge port add bridge=BR interface=ether1 frame-types=admit-only-vlan-tagged pvid=666
+interface bridge port add bridge=BR interface=ether2 frame-types=admit-only-vlan-tagged pvid=666
+interface bridge port add bridge=BR interface=ether3 frame-types=admit-only-vlan-tagged pvid=666
+interface bridge port add bridge=BR interface=ether4 frame-types=admit-only-vlan-tagged pvid=666
+interface bridge port add bridge=BR interface=ether5 frame-types=admit-only-vlan-tagged pvid=666
+interface bridge port add bridge=BR interface=ether6 frame-types=admit-only-vlan-tagged pvid=666
+interface bridge port add bridge=BR interface=ether7 frame-types=admit-only-vlan-tagged pvid=666
+interface bridge port add bridge=BR interface=ether8 frame-types=admit-only-vlan-tagged pvid=666
+
+
