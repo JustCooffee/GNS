@@ -94,3 +94,15 @@
 /interface vlan add interface=BR420 name=VLAN420 vlan-id=420
 
 /interface bridge port add bridge=BR420 interface=VLAN420
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus13
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus14
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus15
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus16
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus17
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus18
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus19
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus20
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus21
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus22
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus23
+/interface bridge port add bridge=BR420 interface=sfp-sfpplus24
