@@ -98,51 +98,55 @@ interface bridge port add bridge=BR interface=ether8 frame-types=admit-only-vlan
 interface bridge port add bridge=BR interface=ether9 frame-types=admit-only-vlan-tagged pvid=666
 interface bridge port add bridge=BR interface=ether10 frame-types=admit-only-vlan-tagged pvid=666
 
-################################## OFF INTERFACES ########################################
-/interface disable 11
-/interface disable 12
-/interface disable 13
-/interface disable 14
-/interface disable 15
-/interface disable 16
-/interface disable 17
-/interface disable 18
-/interface disable 19
-/interface disable 20
-/interface disable 21
-/interface disable 22
-/interface disable 23
-/interface disable 24
-/interface disable 25
-/interface disable 26
-/interface disable 27
-/interface disable 28
-/interface disable 29
-/interface disable 30
-/interface disable 31
-/interface disable 32
-/interface disable 33
-/interface disable 34
-/interface disable 35
-/interface disable 36
-/interface disable 37
-/interface disable 38
-/interface disable 39
-/interface disable 40
-/interface disable 41
-/interface disable 42
-/interface disable 43
-/interface disable 44
-/interface disable 45
-/interface disable 46
-/interface disable 47
+################################## OFF INTERFACES #######################################
 
-/interface disable 49
-/interface disable 50
-/interface disable 51
-/interface disable 52
-/interface disable 53
-/interface disable 54
-/interface disable 55
-/interface disable 56
+
+/interface disable ether11
+/interface disable ether12
+/interface disable ether13
+/interface disable ether14
+/interface disable ether15
+/interface disable ether16
+/interface disable ether17
+/interface disable ether18
+/interface disable ether19
+/interface disable ether20
+/interface disable ether21
+/interface disable ether22
+/interface disable ether23
+/interface disable ether24
+/interface disable ether25
+/interface disable ether26
+/interface disable ether27
+/interface disable ether28
+/interface disable ether29
+/interface disable ether30
+/interface disable ether31
+/interface disable ether32
+/interface disable ether33
+/interface disable ether34
+/interface disable ether35
+/interface disable ether36
+/interface disable ether37
+/interface disable ether38
+/interface disable ether39
+/interface disable ether40
+/interface disable ether41
+/interface disable ether42
+/interface disable ether43
+/interface disable ether44
+/interface disable ether45
+/interface disable ether46
+/interface disable ether47
+/interface disable ether48
+
+/interface disable qsfpplus1-1
+/interface disable qsfpplus1-2
+/interface disable qsfpplus1-3
+/interface disable qsfpplus1-4
+/interface disable qsfpplus2-1
+/interface disable qsfpplus2-2
+/interface disable qsfpplus2-3
+/interface disable qsfpplus2-4
+
 
