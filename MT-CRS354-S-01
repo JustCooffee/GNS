@@ -136,6 +136,7 @@
 /interface disable ether45
 /interface disable ether46
 /interface disable ether47
+/interface disable ether48
 
 /interface disable qsfpplus1-1
 /interface disable qsfpplus1-2
