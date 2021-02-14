@@ -147,3 +147,59 @@ interface bridge port add bridge=BR interface=ether8 frame-types=admit-only-vlan
 /interface disable qsfpplus2-2
 /interface disable qsfpplus2-3
 /interface disable qsfpplus2-4
+
+
+######################################## BLACKHOLE VLAN #######################################
+
+/interface bridge add name=BR420
+/interface vlan add interface=BR420 name=VLAN420 vlan-id=420
+
+/interface bridge port add bridge=BR420 interface=VLAN420
+/interface bridge port add bridge=BR420 interface=ether9
+/interface bridge port add bridge=BR420 interface=ether10
+/interface bridge port add bridge=BR420 interface=ether11
+/interface bridge port add bridge=BR420 interface=ether12
+/interface bridge port add bridge=BR420 interface=ether13
+/interface bridge port add bridge=BR420 interface=ether14
+/interface bridge port add bridge=BR420 interface=ether15
+/interface bridge port add bridge=BR420 interface=ether16
+/interface bridge port add bridge=BR420 interface=ether17
+/interface bridge port add bridge=BR420 interface=ether18
+/interface bridge port add bridge=BR420 interface=ether19
+/interface bridge port add bridge=BR420 interface=ether20
+/interface bridge port add bridge=BR420 interface=ether21
+/interface bridge port add bridge=BR420 interface=ether22
+/interface bridge port add bridge=BR420 interface=ether23
+/interface bridge port add bridge=BR420 interface=ether24
+/interface bridge port add bridge=BR420 interface=ether25
+/interface bridge port add bridge=BR420 interface=ether26
+/interface bridge port add bridge=BR420 interface=ether27
+/interface bridge port add bridge=BR420 interface=ether28
+/interface bridge port add bridge=BR420 interface=ether29
+/interface bridge port add bridge=BR420 interface=ether30
+/interface bridge port add bridge=BR420 interface=ether31
+/interface bridge port add bridge=BR420 interface=ether32
+/interface bridge port add bridge=BR420 interface=ether33
+/interface bridge port add bridge=BR420 interface=ether34
+/interface bridge port add bridge=BR420 interface=ether35
+/interface bridge port add bridge=BR420 interface=ether36
+/interface bridge port add bridge=BR420 interface=ether37
+/interface bridge port add bridge=BR420 interface=ether38
+/interface bridge port add bridge=BR420 interface=ether39
+/interface bridge port add bridge=BR420 interface=ether40
+/interface bridge port add bridge=BR420 interface=ether41
+/interface bridge port add bridge=BR420 interface=ether42
+/interface bridge port add bridge=BR420 interface=ether43
+/interface bridge port add bridge=BR420 interface=ether44
+/interface bridge port add bridge=BR420 interface=ether45
+/interface bridge port add bridge=BR420 interface=ether46
+/interface bridge port add bridge=BR420 interface=ether47
+
+/interface bridge port add bridge=BR420 interface=qsfpplus1-1
+/interface bridge port add bridge=BR420 interface=qsfpplus1-2
+/interface bridge port add bridge=BR420 interface=qsfpplus1-3
+/interface bridge port add bridge=BR420 interface=qsfpplus1-4
+/interface bridge port add bridge=BR420 interface=qsfpplus2-1
+/interface bridge port add bridge=BR420 interface=qsfpplus2-2
+/interface bridge port add bridge=BR420 interface=qsfpplus2-3
+/interface bridge port add bridge=BR420 interface=qsfpplus2-4
