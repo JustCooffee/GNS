@@ -138,6 +138,8 @@ interface bridge port add bridge=BR interface=ether5 frame-types=admit-only-vlan
 /interface disable ether45
 /interface disable ether46
 /interface disable ether47
+/interface disable ether48
+
 
 /interface disable qsfpplus1-1
 /interface disable qsfpplus1-2
@@ -199,6 +201,7 @@ interface bridge port add bridge=BR interface=ether5 frame-types=admit-only-vlan
 /interface bridge port add bridge=BR420 interface=ether45
 /interface bridge port add bridge=BR420 interface=ether46
 /interface bridge port add bridge=BR420 interface=ether47
+/interface bridge port add bridge=BR420 interface=ether48
 
 /interface bridge port add bridge=BR420 interface=qsfpplus1-1
 /interface bridge port add bridge=BR420 interface=qsfpplus1-2
