@@ -137,3 +137,12 @@ interface bridge port add bridge=BR interface=ether10 frame-types=admit-only-vla
 /interface disable 46
 /interface disable 47
 
+/interface disable 49
+/interface disable 50
+/interface disable 51
+/interface disable 52
+/interface disable 53
+/interface disable 54
+/interface disable 55
+/interface disable 56
+
