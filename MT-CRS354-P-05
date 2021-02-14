@@ -92,3 +92,55 @@ interface bridge port add bridge=BR interface=ether4 frame-types=admit-only-vlan
 interface bridge port add bridge=BR interface=ether5 frame-types=admit-only-vlan-tagged pvid=666
 interface bridge port add bridge=BR interface=ether6 frame-types=admit-only-vlan-tagged pvid=666
 interface bridge port add bridge=BR interface=ether7 frame-types=admit-only-vlan-tagged pvid=666
+
+################################### DISABLED INTERFACES ###################################
+
+/interface disable ether8
+/interface disable ether9
+/interface disable ether10
+/interface disable ether11
+/interface disable ether12
+/interface disable ether13
+/interface disable ether14
+/interface disable ether15
+/interface disable ether16
+/interface disable ether17
+/interface disable ether18
+/interface disable ether19
+/interface disable ether20
+/interface disable ether21
+/interface disable ether22
+/interface disable ether23
+/interface disable ether24
+/interface disable ether25
+/interface disable ether26
+/interface disable ether27
+/interface disable ether28
+/interface disable ether29
+/interface disable ether30
+/interface disable ether31
+/interface disable ether32
+/interface disable ether33
+/interface disable ether34
+/interface disable ether35
+/interface disable ether36
+/interface disable ether37
+/interface disable ether38
+/interface disable ether39
+/interface disable ether40
+/interface disable ether41
+/interface disable ether42
+/interface disable ether43
+/interface disable ether44
+/interface disable ether45
+/interface disable ether46
+/interface disable ether47
+
+/interface disable qsfpplus1-1
+/interface disable qsfpplus1-2
+/interface disable qsfpplus1-3
+/interface disable qsfpplus1-4
+/interface disable qsfpplus2-1
+/interface disable qsfpplus2-2
+/interface disable qsfpplus2-3
+/interface disable qsfpplus2-4
