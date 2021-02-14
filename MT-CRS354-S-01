@@ -152,7 +152,7 @@
 ####################################### BLACKHOLE VLAN ##############################
 
 /interface bridge add name=BR420
-/interface vlan add interface=BR420 name=VALN420 vlan-id=420
+/interface vlan add interface=BR420 name=VLAN420 vlan-id=420
 
 /interface bridge port add bridge=BR420 interface=VLAN420
 /interface bridge port add bridge=BR420 interface=ether1
