@@ -215,4 +215,4 @@ interface bridge port add bridge=BR interface=ether10 frame-types=admit-only-vla
 /interface vlan add interface=BR90 name=VLAN90 vlan-id=90
 
 /interface bridge port add bridge=BR90 interface=VLAN90
-/interface bridge port add bridge=BR90 interface=ether90
+/interface bridge port add bridge=BR90 interface=ether11
