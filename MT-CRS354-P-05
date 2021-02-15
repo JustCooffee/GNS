@@ -203,3 +203,6 @@ interface bridge port add bridge=BR interface=ether7 frame-types=admit-only-vlan
 /interface bridge port add bridge=BR420 interface=qsfpplus2-2
 /interface bridge port add bridge=BR420 interface=qsfpplus2-3
 /interface bridge port add bridge=BR420 interface=qsfpplus2-4
+
+############################# IP ###################################
+/ip address add address=10.21.37.9/24 interface=Management 
