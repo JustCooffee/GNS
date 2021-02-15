@@ -207,3 +207,12 @@ interface bridge port add bridge=BR interface=ether10 frame-types=admit-only-vla
 
 ######################### IP ################################
 /ip address add address=10.21.37.5/24 interface=Management network=10.21.37.0
+
+
+########################### ADD PORT TO ACCESS VLAN #####################
+
+/interface bridge add name=BR90
+/interface vlan add interface=BR90 name=VLAN90 vlan-id=90
+
+/interface bridge port add bridge=BR90 interface=VLAN90
+/interface bridge port add bridge=BR90 interface=ether90
