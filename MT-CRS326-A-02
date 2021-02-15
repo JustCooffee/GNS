@@ -106,3 +106,6 @@
 /interface bridge port add bridge=BR420 interface=sfp-sfpplus22
 /interface bridge port add bridge=BR420 interface=sfp-sfpplus23
 /interface bridge port add bridge=BR420 interface=sfp-sfpplus24
+
+################################### IP ###########################################
+/ip address add address=10.21.37.4/24 interface=Management
