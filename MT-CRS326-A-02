@@ -1,111 +1,70 @@
-/interface ethernet set [find default-name=ether1] name=qsfpplus1-1
-/interface ethernet set [find default-name=ether2] name=qsfpplus1-2
-/interface ethernet set [find default-name=ether3] name=qsfpplus1-3
-/interface ethernet set [find default-name=ether4] name=qsfpplus1-4
-/interface ethernet set [find default-name=ether5] name=qsfpplus2-1
-/interface ethernet set [find default-name=ether6] name=qsfpplus2-2
-/interface ethernet set [find default-name=ether7] name=qsfpplus2-3
-/interface ethernet set [find default-name=ether8] name=qsfpplus2-4
-/interface ethernet set [find default-name=ether9] name=sfp-sfpplus1
-/interface ethernet set [find default-name=ether10] name=sfp-sfpplus2
-/interface ethernet set [find default-name=ether11] name=sfp-sfpplus3
-/interface ethernet set [find default-name=ether12] name=sfp-sfpplus4
-/interface ethernet set [find default-name=ether13] name=sfp-sfpplus5
-/interface ethernet set [find default-name=ether14] name=sfp-sfpplus6
-/interface ethernet set [find default-name=ether15] name=sfp-sfpplus7
-/interface ethernet set [find default-name=ether16] name=sfp-sfpplus8
-/interface ethernet set [find default-name=ether17] name=sfp-sfpplus9
-/interface ethernet set [find default-name=ether18] name=sfp-sfpplus10
-/interface ethernet set [find default-name=ether19] name=sfp-sfpplus11
-/interface ethernet set [find default-name=ether20] name=sfp-sfpplus12
-/interface ethernet set [find default-name=ether21] name=sfp-sfpplus13
-/interface ethernet set [find default-name=ether22] name=sfp-sfpplus14
-/interface ethernet set [find default-name=ether23] name=sfp-sfpplus15
-/interface ethernet set [find default-name=ether24] name=sfp-sfpplus16
-/interface ethernet set [find default-name=ether25] name=sfp-sfpplus17
-/interface ethernet set [find default-name=ether26] name=sfp-sfpplus18
-/interface ethernet set [find default-name=ether27] name=sfp-sfpplus19
-/interface ethernet set [find default-name=ether28] name=sfp-sfpplus20
-/interface ethernet set [find default-name=ether29] name=sfp-sfpplus21
-/interface ethernet set [find default-name=ether30] name=sfp-sfpplus22
-/interface ethernet set [find default-name=ether31] name=sfp-sfpplus23
-/interface ethernet set [find default-name=ether32] name=sfp-sfpplus24
-/interface ethernet set [find default-name=ether33] name=ether1
-
-
-/interface bonding add slaves=qsfpplus1-1,qsfpplus1-2,qsfpplus1-3,qsfpplus1-4 name=bonding1 mode=802.3ad
-/interface bonding add slaves=qsfpplus2-1,qsfpplus2-2 name=bonding2 mode=802.3ad
-/interface bonding add slaves=qsfpplus2-3,qsfpplus2-4 name=bonding3 mode=802.3ad
-/interface bonding add slaves=sfp-sfpplus1,sfp-sfpplus2 name=bonding50 mode=802.3ad
-/interface bonding add slaves=sfp-sfpplus3,sfp-sfpplus4 name=bonding51 mode=802.3ad
-/interface bonding add slaves=sfp-sfpplus5,sfp-sfpplus6 name=bonding52 mode=802.3ad
-/interface bonding add slaves=sfp-sfpplus7,sfp-sfpplus8 name=bonding53 mode=802.3ad
-/interface bonding add slaves=sfp-sfpplus9,sfp-sfpplus10 name=bonding54 mode=802.3ad
-/interface bonding add slaves=sfp-sfpplus11,sfp-sfpplus12 name=bonding55 mode=802.3ad
-
-
-
-######################################### VLAN ########################################
-
-/interface bridge add name=BR vlan-filtering=yes pvid=666
-
-/interface vlan add name=Printers vlan-id=70 disabled=no interface=BR
-/interface vlan add name=Guest vlan-id=80 disabled=no interface=BR
-/interface vlan add name=BYOD vlan-id=90 disabled=no interface=BR
-/interface vlan add name=Company_1 vlan-id=100 disabled=no interface=BR
-/interface vlan add name=Blackhole vlan-id=420 disabled=no interface=BR
-/interface vlan add name=Default vlan-id=666 disabled=no interface=BR
-/interface vlan add name=Management vlan-id=2137 disabled=no interface=BR
-
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding1 pvid=666
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding2 pvid=666
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding3 pvid=666
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding50 pvid=666
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding51 pvid=666
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding52 pvid=666
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding53 pvid=666
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding54 pvid=666
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding55 pvid=666
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=ether1 pvid=666
-
-/interface bridge vlan add bridge=BR tagged=BR,ether1,bonding1,bonding2,bonding3,bonding50,bonding51,bonding52,bonding53,bonding54,bonding55 vlan-ids=2137
-/interface bridge vlan add bridge=BR tagged=BR,bonding1,bonding2,bonding3,bonding50,bonding51,bonding52,bonding53,bonding54,bonding55 vlan-ids=70,80,90,100
-
-
-##################################### DISABLE INTERFACES ############################################
-
-/interface disable sfp-sfpplus13
-/interface disable sfp-sfpplus14
-/interface disable sfp-sfpplus15
-/interface disable sfp-sfpplus16
-/interface disable sfp-sfpplus17
-/interface disable sfp-sfpplus18
-/interface disable sfp-sfpplus19
-/interface disable sfp-sfpplus20
-/interface disable sfp-sfpplus21
-/interface disable sfp-sfpplus22
-/interface disable sfp-sfpplus23
-/interface disable sfp-sfpplus24
-
-
-################################# BLACKHOLE VLAN #####################################
-
-/interface bridge add name=BR420
-/interface vlan add interface=BR420 name=VLAN420 vlan-id=420
-
-/interface bridge port add bridge=BR420 interface=VLAN420
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus13
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus14
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus15
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus16
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus17
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus18
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus19
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus20
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus21
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus22
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus23
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus24
-
-################################### IP ###########################################
-/ip address add address=10.21.37.4/24 interface=Management
+/interface bridge
+add name=BR pvid=666 vlan-filtering=yes
+/interface ethernet
+set [ find default-name=ether1 ] disable-running-check=no
+set [ find default-name=ether26 ] disable-running-check=no name=qsfpplus1-1
+set [ find default-name=ether27 ] disable-running-check=no name=qsfpplus1-2
+set [ find default-name=ether28 ] disable-running-check=no name=qsfpplus1-3
+set [ find default-name=ether29 ] disable-running-check=no name=qsfpplus1-4
+set [ find default-name=ether30 ] disable-running-check=no name=qsfpplus2-1
+set [ find default-name=ether31 ] disable-running-check=no name=qsfpplus2-2
+set [ find default-name=ether32 ] disable-running-check=no name=qsfpplus2-3
+set [ find default-name=ether33 ] disable-running-check=no name=qsfpplus2-4
+set [ find default-name=ether2 ] disable-running-check=no name=sfp-sfpplus1
+set [ find default-name=ether3 ] disable-running-check=no name=sfp-sfpplus2
+set [ find default-name=ether4 ] disable-running-check=no name=sfp-sfpplus3
+set [ find default-name=ether5 ] disable-running-check=no name=sfp-sfpplus4
+set [ find default-name=ether6 ] disable-running-check=no name=sfp-sfpplus5
+set [ find default-name=ether7 ] disable-running-check=no name=sfp-sfpplus6
+set [ find default-name=ether8 ] disable-running-check=no name=sfp-sfpplus7
+set [ find default-name=ether9 ] disable-running-check=no name=sfp-sfpplus8
+set [ find default-name=ether10 ] disable-running-check=no name=sfp-sfpplus9
+set [ find default-name=ether11 ] disable-running-check=no name=sfp-sfpplus10
+set [ find default-name=ether12 ] disable-running-check=no name=sfp-sfpplus11
+set [ find default-name=ether13 ] disable-running-check=no name=sfp-sfpplus12
+set [ find default-name=ether14 ] disable-running-check=no disabled=yes name=sfp-sfpplus13
+set [ find default-name=ether15 ] disable-running-check=no disabled=yes name=sfp-sfpplus14
+set [ find default-name=ether16 ] disable-running-check=no disabled=yes name=sfp-sfpplus15
+set [ find default-name=ether17 ] disable-running-check=no disabled=yes name=sfp-sfpplus16
+set [ find default-name=ether18 ] disable-running-check=no disabled=yes name=sfp-sfpplus17
+set [ find default-name=ether19 ] disable-running-check=no disabled=yes name=sfp-sfpplus18
+set [ find default-name=ether20 ] disable-running-check=no disabled=yes name=sfp-sfpplus19
+set [ find default-name=ether21 ] disable-running-check=no disabled=yes name=sfp-sfpplus20
+set [ find default-name=ether22 ] disable-running-check=no disabled=yes name=sfp-sfpplus21
+set [ find default-name=ether23 ] disable-running-check=no disabled=yes name=sfp-sfpplus22
+set [ find default-name=ether24 ] disable-running-check=no disabled=yes name=sfp-sfpplus23
+set [ find default-name=ether25 ] disable-running-check=no disabled=yes name=sfp-sfpplus24
+/interface vlan
+add interface=BR name=Management vlan-id=2137
+/interface bonding
+add mode=802.3ad name=bonding1 slaves=qsfpplus1-1,qsfpplus1-2,qsfpplus1-3,qsfpplus1-4
+add mode=802.3ad name=bonding2 slaves=qsfpplus2-1,qsfpplus2-2
+add mode=802.3ad name=bonding3 slaves=qsfpplus2-3,qsfpplus2-4
+add mode=802.3ad name=bonding50 slaves=sfp-sfpplus1,sfp-sfpplus2
+add mode=802.3ad name=bonding51 slaves=sfp-sfpplus3,sfp-sfpplus4
+add mode=802.3ad name=bonding52 slaves=sfp-sfpplus5,sfp-sfpplus6
+add mode=802.3ad name=bonding53 slaves=sfp-sfpplus7,sfp-sfpplus8
+add mode=802.3ad name=bonding54 slaves=sfp-sfpplus9,sfp-sfpplus10
+add mode=802.3ad name=bonding55 slaves=sfp-sfpplus11,sfp-sfpplus12
+/interface bridge port
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding1 pvid=666
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding2 pvid=666
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding3 pvid=666
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding50 pvid=666
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding51 pvid=666
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding52 pvid=666
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding53 pvid=666
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding54 pvid=666
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding55 pvid=666
+add bridge=BR frame-types=admit-only-vlan-tagged interface=ether1 pvid=666
+/interface bridge vlan
+add bridge=BR tagged=BR,ether1,bonding1,bonding2,bonding3,bonding50,bonding51,bonding52,bonding53,bonding54,bonding55 vlan-ids=2137
+add bridge=BR tagged=BR,bonding1,bonding2,bonding3,bonding50,bonding51,bonding52,bonding53,bonding54,bonding55 vlan-ids=70
+add bridge=BR tagged=BR,bonding1,bonding2,bonding3,bonding50,bonding51,bonding52,bonding53,bonding54,bonding55 vlan-ids=80
+add bridge=BR tagged=BR,bonding1,bonding2,bonding3,bonding50,bonding51,bonding52,bonding53,bonding54,bonding55 vlan-ids=90
+add bridge=BR tagged=BR,bonding1,bonding2,bonding3,bonding50,bonding51,bonding52,bonding53,bonding54,bonding55 vlan-ids=100
+/ip address
+add address=10.21.37.4/24 interface=Management network=10.21.37.0
+/system identity
+set name=MT-CRS326-A-02
+/ip dhcp-client remove 0
