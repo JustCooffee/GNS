@@ -39,8 +39,6 @@ add interface=VLAN70-Printers name=VRRP70-Printers vrid=70
 add interface=VLAN80-Guest name=VRRP80-Guest vrid=80
 add interface=VLAN90-BYOD name=VRRP90-BYOD vrid=90
 add interface=VLAN100-Company_1 name=VRRP100-Company_1 vrid=100
-/interface wireless security-profiles
-set [ find default=yes ] supplicant-identity=MikroTik
 /interface bridge port
 add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding2 pvid=666
 add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding3 pvid=666
