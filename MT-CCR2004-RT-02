@@ -1,83 +1,63 @@
-/interface ethernet set [find default-name=ether1] name=sfp-sfp281
-/interface ethernet set [find default-name=ether2] name=sfp-sfp282
-/interface ethernet set [find default-name=ether3] name=sfp-sfpplus1
-/interface ethernet set [find default-name=ether4] name=sfp-sfpplus2
-/interface ethernet set [find default-name=ether5] name=sfp-sfpplus3
-/interface ethernet set [find default-name=ether6] name=sfp-sfpplus4
-/interface ethernet set [find default-name=ether7] name=sfp-sfpplus5
-/interface ethernet set [find default-name=ether8] name=sfp-sfpplus6
-/interface ethernet set [find default-name=ether9] name=sfp-sfpplus7
-/interface ethernet set [find default-name=ether10] name=sfp-sfpplus8
-/interface ethernet set [find default-name=ether11] name=sfp-sfpplus9
-/interface ethernet set [find default-name=ether12] name=sfp-sfpplus10
-/interface ethernet set [find default-name=ether13] name=sfp-sfpplus11
-/interface ethernet set [find default-name=ether14] name=sfp-sfpplus12
-/interface ethernet set [find default-name=ether15] name=ether1
 
-
-/interface bonding add slaves=sfp281,sfp282 name=bonding1 mode=802.3ad
-/interface bonding add slaves=sfp-sfpplus1,sfp-sfpplus2 name=bonding2 mode=802.3ad
-/interface bonding add slaves=sfp-sfpplus3,sfp-sfpplus4 name=bonding3 mode=802.3ad
-
-
-################# VLAN ######################
-
-
-/interface bridge add name=BR vlan-filtering=yes pvid=666
-
-/interface vlan add name=Printers vlan-id=70 disabled=no interface=BR
-/interface vlan add name=Guest vlan-id=80 disabled=no interface=BR
-/interface vlan add name=BYOD vlan-id=90 disabled=no interface=BR
-/interface vlan add name=Company_1 vlan-id=100 disabled=no interface=BR
-/interface vlan add name=Blackhole vlan-id=420 disabled=no interface=BR
-/interface vlan add name=Default vlan-id=666 disabled=no interface=BR
-/interface vlan add name=Management vlan-id=2137 disabled=no interface=BR
-
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding1 pvid=666
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding2 pvid=666
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding3 pvid=666
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=ether1 pvid=666
-
-/interface bridge vlan add bridge=BR tagged=BR,ether1,bonding1,bonding2,bonding3 vlan-ids=2137
-/interface bridge vlan add bridge=BR tagged=BR,bonding1,bonding2,bonding3 vlan-ids=70,80,90,100
-
-
-
-################# VRRP ##########################
-
-/interface vrrp add interface=bonding2 vrid=21 priority=101 name=VRRP2137
-/ip address add address 10.21.37.254 interface=VRRP2137
-
-/interface vrrp add interface=bonding2 vrid=70 priority=101 name=VRRP70
-/ip address add address 10.70.0.254 interface=VRRP70
-
-
-##################################### DISABLE INTERFACES ############################################
-
-/interface disable sfp-sfpplus5
-/interface disable sfp-sfpplus6
-/interface disable sfp-sfpplus7
-/interface disable sfp-sfpplus8
-/interface disable sfp-sfpplus9
-/interface disable sfp-sfpplus10
-/interface disable sfp-sfpplus11
-/interface disable sfp-sfpplus12
-
-
-################################# BLACKHOLE VLAN #####################################
-
-/interface bridge add name=BR420
-/interface vlan add interface=BR420 name=VLAN420 vlan-id=420
-
-/interface bridge port add bridge=BR420 interface=VLAN420
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus5
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus6
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus7
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus8
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus9
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus10
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus11
-/interface bridge port add bridge=BR420 interface=sfp-sfpplus12
-
-###################################### IP ##########################################
-/ip address add address=10.21.37.2/24 interface=Management
+/interface bridge
+add name=BR pvid=666 vlan-filtering=yes
+/interface ethernet
+set [ find default-name=ether1 ] disable-running-check=no
+set [ find default-name=ether14 ] disable-running-check=no name=sfp-sfp281
+set [ find default-name=ether15 ] disable-running-check=no name=sfp-sfp282
+set [ find default-name=ether2 ] disable-running-check=no name=sfp-sfpplus1
+set [ find default-name=ether3 ] disable-running-check=no name=sfp-sfpplus2
+set [ find default-name=ether4 ] disable-running-check=no name=sfp-sfpplus3
+set [ find default-name=ether5 ] disable-running-check=no name=sfp-sfpplus4
+set [ find default-name=ether6 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus5
+set [ find default-name=ether7 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus6
+set [ find default-name=ether8 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus7
+set [ find default-name=ether9 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus8
+set [ find default-name=ether10 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus9
+set [ find default-name=ether11 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus10
+set [ find default-name=ether12 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus11
+set [ find default-name=ether13 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus12
+/interface vlan
+add interface=BR name=VLAN70-Printers vlan-id=70
+add interface=BR name=VLAN80-Guest vlan-id=80
+add interface=BR name=VLAN90-BYOD vlan-id=90
+add interface=BR name=VLAN100-Company_1 vlan-id=100
+add interface=BR name=VLAN2137-MGMT vlan-id=2137
+/interface bonding
+add mode=802.3ad name=bonding2 slaves=sfp-sfpplus1,sfp-sfpplus2
+add mode=802.3ad name=bonding3 slaves=sfp-sfpplus3,sfp-sfpplus4
+/interface vrrp
+add interface=VLAN2137-MGMT name=VRRP21-MGMT vrid=21
+add interface=VLAN70-Printers name=VRRP70-Printers vrid=70
+add interface=VLAN80-Guest name=VRRP80-Guest vrid=80
+add interface=VLAN90-BYOD name=VRRP90-BYOD vrid=90
+add interface=VLAN100-Company_1 name=VRRP100-Company_1 vrid=100
+/interface bridge port
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding2 pvid=666
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding3 pvid=666
+add bridge=BR frame-types=admit-only-vlan-tagged interface=ether1 pvid=666
+/interface bridge vlan
+add bridge=BR tagged=BR,bonding2,bonding3,ether1 vlan-ids=2137
+add bridge=BR tagged=BR,bonding2,bonding3 vlan-ids=70
+add bridge=BR tagged=BR,bonding2,bonding3 vlan-ids=80
+add bridge=BR tagged=BR,bonding2,bonding3 vlan-ids=90
+add bridge=BR tagged=BR,bonding2,bonding3 vlan-ids=100
+/ip address
+add address=10.21.37.2/24 interface=VLAN2137-MGMT network=10.21.37.0
+add address=10.70.0.2/24 interface=VLAN70-Printers network=10.70.0.0
+add address=10.80.0.2/22 interface=VLAN80-Guest network=10.80.0.0
+add address=10.90.0.2/22 interface=VLAN90-BYOD network=10.90.0.0
+add address=10.100.0.2/23 interface=VLAN100-Company_1 network=10.100.0.0
+add address=10.21.37.254 interface=VRRP21-MGMT network=10.21.37.254
+add address=10.70.0.254 interface=VRRP70-Printers network=10.70.0.254
+add address=10.80.4.254 interface=VRRP80-Guest network=10.80.4.254
+add address=10.90.4.254 interface=VRRP90-BYOD network=10.90.4.254
+add address=10.100.1.254 interface=VRRP100-Company_1 network=10.100.1.254
