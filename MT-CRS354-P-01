@@ -50,22 +50,14 @@ set [ find default-name=ether46 ] disable-running-check=no disabled=yes
 set [ find default-name=ether47 ] disable-running-check=no disabled=yes
 set [ find default-name=ether48 ] disable-running-check=no disabled=yes
 set [ find default-name=ether49 ] disable-running-check=no
-set [ find default-name=ether54 ] disable-running-check=no disabled=yes name=\
-    qsfpplus1-1
-set [ find default-name=ether55 ] disable-running-check=no disabled=yes name=\
-    qsfpplus1-2
-set [ find default-name=ether56 ] disable-running-check=no disabled=yes name=\
-    qsfpplus1-3
-set [ find default-name=ether57 ] disable-running-check=no disabled=yes name=\
-    qsfpplus1-4
-set [ find default-name=ether58 ] disable-running-check=no disabled=yes name=\
-    qsfpplus2-1
-set [ find default-name=ether59 ] disable-running-check=no disabled=yes name=\
-    qsfpplus2-2
-set [ find default-name=ether60 ] disable-running-check=no disabled=yes name=\
-    qsfpplus2-3
-set [ find default-name=ether61 ] disable-running-check=no disabled=yes name=\
-    qsfpplus2-4
+set [ find default-name=ether54 ] disable-running-check=no disabled=yes name=qsfpplus1-1
+set [ find default-name=ether55 ] disable-running-check=no disabled=yes name=qsfpplus1-2
+set [ find default-name=ether56 ] disable-running-check=no disabled=yes name=qsfpplus1-3
+set [ find default-name=ether57 ] disable-running-check=no disabled=yes name=qsfpplus1-4
+set [ find default-name=ether58 ] disable-running-check=no disabled=yes name=qsfpplus2-1
+set [ find default-name=ether59 ] disable-running-check=no disabled=yes name=qsfpplus2-2
+set [ find default-name=ether60 ] disable-running-check=no disabled=yes name=qsfpplus2-3
+set [ find default-name=ether61 ] disable-running-check=no disabled=yes name=qsfpplus2-4
 set [ find default-name=ether50 ] disable-running-check=no name=sfp-sfpplus1
 set [ find default-name=ether51 ] disable-running-check=no name=sfp-sfpplus2
 set [ find default-name=ether52 ] disable-running-check=no name=sfp-sfpplus3
@@ -88,95 +80,53 @@ add bridge=BR frame-types=admit-only-vlan-tagged interface=ether7 pvid=666
 add bridge=BR frame-types=admit-only-vlan-tagged interface=ether8 pvid=666
 add bridge=BR frame-types=admit-only-vlan-tagged interface=ether9 pvid=666
 add bridge=BR frame-types=admit-only-vlan-tagged interface=ether10 pvid=666
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether11 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether12 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether13 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether14 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether15 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether16 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether17 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether18 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether19 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether20 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether21 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether22 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether23 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether24 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether25 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether26 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether27 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether28 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether29 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether30 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether31 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether32 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether33 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether34 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether35 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether36 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether37 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether38 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether39 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether40 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether41 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether42 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether43 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether44 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether45 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether46 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether47 pvid=420
-add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=\
-    ether48 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether11 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether12 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether13 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether14 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether15 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether16 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether17 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether18 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether19 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether20 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether21 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether22 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether23 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether24 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether25 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether26 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether27 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether28 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether29 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether30 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether31 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether32 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether33 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether34 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether35 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether36 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether37 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether38 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether39 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether40 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether41 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether42 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether43 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether44 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether45 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether46 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether47 pvid=420
+add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether48 pvid=420
 add bridge=BR frame-types=admit-only-vlan-tagged interface=ether49 pvid=666
 
 add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding4 pvid=666
 add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding50 pvid=666
 /interface bridge vlan
-add bridge=BR tagged="BR,bonding4,bonding50,ether1,ether2,ether3,ether4,ether5\
-    ,ether6,ether7,ether8,ether9,ether10,ether49" vlan-ids=2137
+add bridge=BR tagged="BR,bonding4,bonding50,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether8,ether9,ether10,ether49" vlan-ids=2137
 add bridge=BR tagged=BR,bonding4,bonding50 vlan-ids=70
-add bridge=BR tagged="BR,bonding4,bonding50,ether1,ether2,ether3,ether4,ether5\
-    ,ether6,ether7,ether8,ether9,ether10" vlan-ids=80
-add bridge=BR tagged="BR,bonding4,bonding50,ether1,ether2,ether3,ether4,ether5\
-    ,ether6,ether7,ether8,ether9,ether10" vlan-ids=90
-add bridge=BR tagged="BR,bonding4,bonding50,ether1,ether2,ether3,ether4,ether5\
-    ,ether6,ether7,ether8,ether9,ether10" vlan-ids=100
+add bridge=BR tagged="BR,bonding4,bonding50,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether8,ether9,ether10" vlan-ids=80
+add bridge=BR tagged="BR,bonding4,bonding50,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether8,ether9,ether10" vlan-ids=90
+add bridge=BR tagged="BR,bonding4,bonding50,ether1,ether2,ether3,ether4,ether5,ether6,ether7,ether8,ether9,ether10" vlan-ids=100
 /system identity
 set name=MT-CRS354-P-01
