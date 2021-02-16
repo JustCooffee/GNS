@@ -46,6 +46,8 @@ add mode=802.3ad name=bonding52 slaves=sfp-sfpplus5,sfp-sfpplus6
 add mode=802.3ad name=bonding53 slaves=sfp-sfpplus7,sfp-sfpplus8
 add mode=802.3ad name=bonding54 slaves=sfp-sfpplus9,sfp-sfpplus10
 add mode=802.3ad name=bonding55 slaves=sfp-sfpplus11,sfp-sfpplus12
+/interface wireless security-profiles
+set [ find default=yes ] supplicant-identity=MikroTik
 /interface bridge port
 add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding1 pvid=666
 add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding2 pvid=666
@@ -67,4 +69,3 @@ add bridge=BR tagged=BR,bonding1,bonding2,bonding3,bonding50,bonding51,bonding52
 add address=10.21.37.4/24 interface=Management network=10.21.37.0
 /system identity
 set name=MT-CRS326-A-02
-/ip dhcp-client remove 0
