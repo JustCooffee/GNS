@@ -22,22 +22,35 @@ set [ find default-name=ether10 ] disable-running-check=no name=sfp-sfpplus9
 set [ find default-name=ether11 ] disable-running-check=no name=sfp-sfpplus10
 set [ find default-name=ether12 ] disable-running-check=no name=sfp-sfpplus11
 set [ find default-name=ether13 ] disable-running-check=no name=sfp-sfpplus12
-set [ find default-name=ether14 ] disable-running-check=no disabled=yes name=sfp-sfpplus13
-set [ find default-name=ether15 ] disable-running-check=no disabled=yes name=sfp-sfpplus14
-set [ find default-name=ether16 ] disable-running-check=no disabled=yes name=sfp-sfpplus15
-set [ find default-name=ether17 ] disable-running-check=no disabled=yes name=sfp-sfpplus16
-set [ find default-name=ether18 ] disable-running-check=no disabled=yes name=sfp-sfpplus17
-set [ find default-name=ether19 ] disable-running-check=no disabled=yes name=sfp-sfpplus18
-set [ find default-name=ether20 ] disable-running-check=no disabled=yes name=sfp-sfpplus19
-set [ find default-name=ether21 ] disable-running-check=no disabled=yes name=sfp-sfpplus20
-set [ find default-name=ether22 ] disable-running-check=no disabled=yes name=sfp-sfpplus21
-set [ find default-name=ether23 ] disable-running-check=no disabled=yes name=sfp-sfpplus22
-set [ find default-name=ether24 ] disable-running-check=no disabled=yes name=sfp-sfpplus23
-set [ find default-name=ether25 ] disable-running-check=no disabled=yes name=sfp-sfpplus24
+set [ find default-name=ether14 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus13
+set [ find default-name=ether15 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus14
+set [ find default-name=ether16 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus15
+set [ find default-name=ether17 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus16
+set [ find default-name=ether18 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus17
+set [ find default-name=ether19 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus18
+set [ find default-name=ether20 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus19
+set [ find default-name=ether21 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus20
+set [ find default-name=ether22 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus21
+set [ find default-name=ether23 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus22
+set [ find default-name=ether24 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus23
+set [ find default-name=ether25 ] disable-running-check=no disabled=yes name=\
+    sfp-sfpplus24
 /interface vlan
 add interface=BR name=Management vlan-id=2137
 /interface bonding
-add mode=802.3ad name=bonding1 slaves=qsfpplus1-1,qsfpplus1-2,qsfpplus1-3,qsfpplus1-4
+add mode=802.3ad name=bonding1 slaves=\
+    qsfpplus1-1,qsfpplus1-2,qsfpplus1-3,qsfpplus1-4
 add mode=802.3ad name=bonding2 slaves=qsfpplus2-1,qsfpplus2-2
 add mode=802.3ad name=bonding3 slaves=qsfpplus2-3,qsfpplus2-4
 add mode=802.3ad name=bonding4 slaves=sfp-sfpplus1,sfp-sfpplus2
@@ -46,6 +59,8 @@ add mode=802.3ad name=bonding6 slaves=sfp-sfpplus5,sfp-sfpplus6
 add mode=802.3ad name=bonding7 slaves=sfp-sfpplus7,sfp-sfpplus8
 add mode=802.3ad name=bonding8 slaves=sfp-sfpplus9,sfp-sfpplus10
 add mode=802.3ad name=bonding9 slaves=sfp-sfpplus11,sfp-sfpplus12
+/interface wireless security-profiles
+set [ find default=yes ] supplicant-identity=MikroTik
 /interface bridge port
 add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding1 pvid=666
 add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding2 pvid=666
@@ -58,13 +73,17 @@ add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding8 pvid=666
 add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding9 pvid=666
 add bridge=BR frame-types=admit-only-vlan-tagged interface=ether1 pvid=666
 /interface bridge vlan
-add bridge=BR tagged=BR,ether1,bonding1,bonding2,bonding3,bonding4,bonding5,bonding6,bonding7,bonding8,bonding9 vlan-ids=2137
-add bridge=BR tagged=BR,bonding1,bonding2,bonding3,bonding4,bonding5,bonding6,bonding7,bonding8,bonding9 vlan-ids=70
-add bridge=BR tagged=BR,bonding1,bonding2,bonding3,bonding4,bonding5,bonding6,bonding7,bonding8,bonding9 vlan-ids=80
-add bridge=BR tagged=BR,bonding1,bonding2,bonding3,bonding4,bonding5,bonding6,bonding7,bonding8,bonding9 vlan-ids=90
-add bridge=BR tagged=BR,bonding1,bonding2,bonding3,bonding4,bonding5,bonding6,bonding7,bonding8,bonding9 vlan-ids=100
+add bridge=BR tagged="BR,ether1,bonding1,bonding2,bonding3,bonding4,bonding5,b\
+    onding6,bonding7,bonding8,bonding9" vlan-ids=2137
+add bridge=BR tagged="BR,bonding1,bonding2,bonding3,bonding4,bonding5,bonding6\
+    ,bonding7,bonding8,bonding9" vlan-ids=70
+add bridge=BR tagged="BR,bonding1,bonding2,bonding3,bonding4,bonding5,bonding6\
+    ,bonding7,bonding8,bonding9" vlan-ids=80
+add bridge=BR tagged="BR,bonding1,bonding2,bonding3,bonding4,bonding5,bonding6\
+    ,bonding7,bonding8,bonding9" vlan-ids=90
+add bridge=BR tagged="BR,bonding1,bonding2,bonding3,bonding4,bonding5,bonding6\
+    ,bonding7,bonding8,bonding9" vlan-ids=100
 /ip address
 add address=10.21.37.3/24 interface=Management network=10.21.37.0
 /system identity
 set name=MT-CRS326-A-01
-/ip dhcp-client remove 0
