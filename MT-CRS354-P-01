@@ -70,16 +70,16 @@ add mode=802.3ad name=bonding50 slaves=sfp-sfpplus3,sfp-sfpplus4
 /interface wireless security-profiles
 set [ find default=yes ] supplicant-identity=MikroTik
 /interface bridge port
-add bridge=BR frame-types=admit-only-vlan-tagged interface=ether1 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=ether2 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=ether3 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=ether4 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=ether5 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=ether6 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=ether7 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=ether8 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=ether9 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=ether10 pvid=666
+add bridge=BR frame-types=admit-only-vlan-tagged interface=ether1 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=ether2 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=ether3 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=ether4 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=ether5 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=ether6 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=ether7 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=ether8 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=ether9 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=ether10 pvid=666 ingress-filtering=yes
 add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether11 pvid=420
 add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether12 pvid=420
 add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether13 pvid=420
@@ -118,7 +118,7 @@ add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ethe
 add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether46 pvid=420
 add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether47 pvid=420
 add bridge=BR frame-types=admit-only-untagged-and-priority-tagged interface=ether48 pvid=420
-add bridge=BR frame-types=admit-only-vlan-tagged interface=ether49 pvid=666
+add bridge=BR frame-types=admit-only-vlan-tagged interface=ether49 pvid=666 ingress-filtering=yes
 
 add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding4 pvid=666
 add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding50 pvid=666
