@@ -39,9 +39,9 @@
 /interface vrrp add interface=VLAN100-Company_1 name=VRRP100-Company_1 vrid=100
 
 
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding2 pvid=666
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding3 pvid=666
-/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged interface=ether1 pvid=666
+/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged pvid=666 ingress-filtering=yes interface=bonding2
+/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged pvid=666 ingress-filtering=yes interface=bonding3
+/interface bridge port add bridge=BR frame-types=admit-only-vlan-tagged pvid=666 ingress-filtering=yes interface=ether1
 
 
 /interface bridge vlan add bridge=BR tagged=BR,bonding2,bonding3,ether1 vlan-ids=2137
