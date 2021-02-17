@@ -62,16 +62,16 @@ add mode=802.3ad name=bonding9 slaves=sfp-sfpplus11,sfp-sfpplus12
 /interface wireless security-profiles
 set [ find default=yes ] supplicant-identity=MikroTik
 /interface bridge port
-add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding1 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding2 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding3 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding4 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding5 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding6 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding7 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding8 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding9 pvid=666
-add bridge=BR frame-types=admit-only-vlan-tagged interface=ether1 pvid=666
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding1 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding2 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding3 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding4 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding5 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding6 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding7 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding8 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=bonding9 pvid=666 ingress-filtering=yes
+add bridge=BR frame-types=admit-only-vlan-tagged interface=ether1 pvid=666 ingress-filtering=yes
 /interface bridge vlan
 add bridge=BR tagged="BR,ether1,bonding1,bonding2,bonding3,bonding4,bonding5,b\
     onding6,bonding7,bonding8,bonding9" vlan-ids=2137
